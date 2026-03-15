@@ -171,6 +171,11 @@ Każde ćwiczenie ma:
 - Przeanalizuj wskazany legacy fragment JFTP pod kątem ryzyk.
 - Wypisz podatności/problemy i zaproponuj minimalne remediacje.
 
+**Checkpoint obowiązkowy (legacy JFTP)**
+- Oznacz każde ryzyko etykietą: `CRITICAL`, `HIGH`, `MEDIUM` lub `LOW`.
+- Dla każdego `CRITICAL/HIGH` dopisz: szybkie działanie „na dziś” oraz trwałe działanie „na sprint”.
+- Zapisz decyzję: `fix now` / `mitigate` / `accept (z uzasadnieniem)`.
+
 **Stretch**
 - Uszereguj ryzyka wg wpływu i kosztu naprawy.
 - Dodaj plan „quick wins (24h) vs hardening (2–4 tyg.)”.
@@ -178,6 +183,7 @@ Każde ćwiczenie ma:
 **Expected output**
 - Lista ryzyk z priorytetami (minimum 5 pozycji).
 - Konkretne rekomendacje naprawcze z krótkim uzasadnieniem.
+- Jednostronicowa tabela decyzji auditowych (co robimy teraz vs po kursie).
 
 ---
 
@@ -267,3 +273,4 @@ Szczegółowe starter files pod ćwiczenia będą dokładane etapami w backlogu:
 - `F2` (starter files),
 - `F3` (prompt packs).
 Ten dokument już teraz pełni rolę master-map dla pracy trenera i uczestników.
+pełni rolę master-map dla pracy trenera i uczestników.

@@ -115,6 +115,7 @@ Struktura demo końcowego:
 
 ### Ćwiczenie
 - Core: uczestnicy układają 5-zdaniową narrację do demo swojego rozwiązania.
+- Obowiązkowy checkpoint (final app audit): przed demo przypinają status bramki bezpieczeństwa `GO / GO WITH CONDITIONS / NO-GO` i 3 najważniejsze ryzyka.
 - Stretch: dopisują wersję „dla managera / architekta / security”, zmieniając akcenty, ale nie gubiąc sensu.
 
 ### Feedback loop

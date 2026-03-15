@@ -223,6 +223,7 @@ Security mini-check przed commitem:
 
 ### Ćwiczenie
 - Core: uczestnicy robią szybki audit jednego fragmentu rozwiązania i wskazują 3 najważniejsze ryzyka.
+- Obowiązkowy checkpoint (legacy JFTP): klasyfikują ryzyka `CRITICAL/HIGH/MEDIUM/LOW` i dla każdego `CRITICAL/HIGH` zapisują `fix now` vs `fix next sprint`.
 - Stretch: dopisują jedno pytanie, które zadaliby zespołowi security lub architektowi przed wdrożeniem.
 
 ### Feedback loop
