@@ -21,6 +21,7 @@ Po Day 1 uczestnicy mają:
 - Failure scenario na dziś: `materials/04-demo-scenarios.md#f4--prompt-zbyt-ogólny-chaotyczna-odpowiedź`
 - Materiał zbiorczy do wrzutek na czat: `prompts/02-module-prompts.md`
 - Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
+- Referencja modułu bezpieczeństwa: `materials/references/sandbox-safety-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Zoom onboarding + zasady pracy
@@ -37,7 +38,7 @@ Po Day 1 uczestnicy mają:
 - 14:15–14:30 — Review loop: generated draft ≠ truth
 - 14:30–14:40 — OPCJONALNA PRZERWA
 - 14:40–15:20 — Dedykowany mini‑moduł WezTerm: ergonomia terminala, powiadomienia i TUI UX
-- 15:20–15:45 — Bonus opcjonalny: Handy.computer teaser
+- 15:20–15:45 — Dedykowany mini‑moduł bezpieczeństwa: sandbox, WSL, bash vs PowerShell
 - 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
 
 ## 09:00–09:20 — Zoom onboarding + zasady pracy
@@ -388,33 +389,35 @@ Po Day 1 uczestnicy mają:
 ### Szacowany czas
 - 40 min
 
-## 15:20–15:45 — Bonus opcjonalny: Handy.computer teaser
+## 15:20–15:45 — Dedykowany mini‑moduł bezpieczeństwa: sandbox, WSL, bash vs PowerShell
 ### Why this matters in daily work
-- Nie każdy workflow musi być obowiązkowy. Warto pokazać też lekkie opcje bonusowe, ale bez narzucania ich całej grupie.
-- To buduje ciekawość bez rozwalania głównego toru szkolenia.
+- W środowisku enterprise największe ryzyko to nie wolniejszy kod, tylko szybki błąd z dużym zasięgiem.
+- Zespół musi umieć odróżnić wygodne środowisko pracy od realnej izolacji bezpieczeństwa.
 
 ### Co mówię
-- „To bonus, nie wymaganie. Jeśli laptop/VM nie wyrabia, pomijamy bez bólu.”
-- „Pokazuję to bardziej jako inspirację: gdzie głos i szybkie interakcje mogą mieć sens.”
-- „Nie robimy z tego religii. To tylko dodatkowy gadżet z potencjałem.”
+- „Sandbox to pas bezpieczeństwa dla pracy z agentem: ma ograniczać skutki błędu, nie Waszą produktywność.”
+- „WSL poprawia UX i kompatybilność narzędzi, ale sam w sobie nie jest granicą bezpieczeństwa.”
+- „Bash i PowerShell są oba OK, ale mają inną składnię i inne pułapki — agent musi dostać jasny kontekst.”
+- „Zasada dnia: AI generuje draft, człowiek zatwierdza decyzję i bierze odpowiedzialność.”
 
 ### Co pokazuję
-- Krótkie wprowadzenie do Handy.computer.
-- 2 przykładowe prompty głosowe: transkrypcja oraz tłumaczenie PL → EN.
-- Kiedy taki tool ma sens, a kiedy lepiej zostać przy podstawowym flow.
+- 5-min porównanie sandbox vs no-sandbox na bazie `materials/references/sandbox-safety-module.md`.
+- Krótkie wyjaśnienie: WSL != izolacja bezpieczeństwa.
+- Mini przykład różnic bash vs PowerShell (quoting/pipeline/komendy) i jak to wpływa na prompty do agenta.
+- Bezpieczne ustawienia domyślne: sandbox ON, approvals ON, małe taski, review diffu, test, commit.
 
 ### Co wklejam na chat
-- `Handy.computer = opcjonalny bonus. Jeśli środowisko nie wyrabia albo nie pasuje do Waszego trybu pracy, pomijamy bez dramatu.`
+- `Bezpieczny start z agentem: dedykowany branch/repo, sandbox + approvals ON, małe taski, czytamy każdy diff, odpalamy celowany test i dopiero commit.`
 
 ### Ćwiczenie
-- Core: uczestnicy oceniają, czy taki dodatek miałby sens w ich własnym workflow.
-- Stretch: wpisują 1 zadanie, do którego głos miałby sens, i 1 zadanie, gdzie absolutnie nie.
+- Core: uczestnicy oceniają swój bieżący setup i zaznaczają 1 ryzyko, które redukują od razu po module.
+- Stretch: przygotowują mini-checklistę „safe defaults” dla własnego zespołu (5 punktów max).
 
 ### Feedback loop (Kolb)
-- Doświadczenie: grupa widzi alternatywny, lekki tryb interakcji.
-- Refleksja: czy to wspiera pracę, czy tylko dodaje gadżetowości?
-- Konceptualizacja: nie każde nowe narzędzie zwiększa wartość.
-- Testowanie: kto chce, może później sprawdzić to prywatnie jako eksperyment.
+- Doświadczenie: uczestnicy mapują swój realny workflow na model bezpieczeństwa.
+- Refleksja: gdzie do tej pory myliliśmy wygodę z izolacją?
+- Konceptualizacja: guardrails to część tempa pracy, nie hamulec.
+- Testowanie: od jutra stosujemy checklistę safe defaults w każdej iteracji z agentem.
 
 ### Szacowany czas
 - 25 min

@@ -21,6 +21,7 @@ Po Day 3 uczestnicy mają:
 - Dzień poprzedni: `materials/scripts/day-2-script.md`
 - Dzień następny: `materials/scripts/day-4-script.md`
 - Referencja modułu terminalowego: `materials/references/wezterm-mini-module.md`
+- Referencja modułu bezpieczeństwa: `materials/references/sandbox-safety-module.md`
 
 ## Agenda dnia
 - 09:00–09:20 — Handoff z Day 2 i plan budowy na dziś
@@ -330,6 +331,7 @@ W pracy najwięcej czasu znika nie na napisanie happy path, ale na znalezienie, 
 - Jedną tabelę porównawczą: Codex jako workflow główny, Claude Code i IntelliJ jako opcjonalny kontekst.
 - 2–3 min mikro‑moduł WezTerm wg `materials/references/wezterm-mini-module.md`: TUI UX, splity, powiadomienia i kiedy nie warto zmieniać terminala.
 - Konkretne kryteria: kiedy narzędzie pomaga, a kiedy tylko zwiększa tool sprawl.
+- 2-min przypomnienie bezpiecznych defaultów z `materials/references/sandbox-safety-module.md` (sandbox vs no-sandbox, WSL != izolacja, bash vs PowerShell).
 
 ### Co wklejam na chat
 ```text
