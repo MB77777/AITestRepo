@@ -94,13 +94,57 @@ Cel: przygotować 3–5 realnych opcji projektu końcowego na 5-dniowy kurs (pro
 
 ---
 
-## Wnioski po E1 (bez finalnej rekomendacji)
+## E2 — Analiza gałęzi `origin/Lucas-sinsay-2nd-February-CopilotKit` jako baza reuse
+
+Źródło analizy: lokalny branch w repo `JSystems-SilkyCoders-1` + diff do `origin/master`.
+
+### Co ta gałąź realnie zawiera
+- Duży, pełny PoC end-to-end: **Spring Boot WebFlux + LangGraph4j + AG-UI/SSE + Next.js 16 + CopilotKit + testy E2E**.
+- Bardzo szeroki zakres zmian (duża liczba plików, frontend + backend + docs + test harness).
+- Wiele commitów naprawczych dotyczących niezawodności flow (routing grafu, form resume, fallback modeli, payload zdjęć, test flakiness).
+
+### Co jest wartościowe do reuse w kursie NBP (high value)
+1. **Narracja i artefakty architektoniczne**
+   - ADR PoC, opis przepływu AG-UI/SSE, mapa komponentów.
+   - Bardzo dobry materiał do pokazania „jak agent działa od środka” (eventy, tool call, system prompt, fallback).
+
+2. **Wzorce jakości i test-honesty**
+   - Widoczne podejście do testów integracyjnych i E2E oraz walka z flaky testami.
+   - Dobre przykłady do Day 4/5 (quality + security + audytowalność + nieoszukiwanie testów).
+
+3. **Wzorce bezpieczeństwa/prywatności danych wejściowych**
+   - Obsługa zdjęć (resize, limity payloadu, logowanie z truncation), kontrola śladu i błędów.
+   - Cenny materiał pod checkpointy bezpieczeństwa i „GO/NO-GO”.
+
+### Co jest ryzykiem jako rdzeń 5-dniowego kursu (high risk)
+1. **Zbyt wysoka złożoność startowa**
+   - Stack naraz: WebFlux, LangGraph4j, AG-UI, CopilotKit, Next.js, SSE, testy E2E.
+   - Ryzyko przeciążenia grupy mixed-level i utraty tempa w D1–D3.
+
+2. **Duży narzut operacyjny i debugowy**
+   - Historia commitów pokazuje liczne naprawy edge-case’ów (form flow, routing, fallback, payloady, test instability).
+   - To dobry materiał dla advanced track, ale niebezpieczny jako wspólny core dla całej grupy.
+
+3. **Ryzyko odejścia od celu „Codex-first”**
+   - Uczestnicy mogą skupić się na frameworkowych detalach AG-UI/CopilotKit zamiast na uniwersalnym workflow agenta.
+
+### Decyzja reuse (dla NBP)
+- **Reuse TAK (core):**
+  - wybrane diagramy/flow z ADR,
+  - przykłady narzędziowego przepływu agenta (tool call → formularz → werdykt),
+  - case’y jakości i stabilności testów jako materiał dydaktyczny.
+- **Reuse TAK (optional demo):**
+  - 5–10 min pokaz AG-UI/CopilotKit „jak to może wyglądać” na gotowym fragmencie.
+- **Reuse NIE (core implementation):**
+  - pełne odtwarzanie brancha CopilotKit jako głównej ścieżki implementacyjnej w tym kursie.
+
+## Wnioski po E1+E2 (bez finalnej rekomendacji E3)
 - Najmocniejsze edukacyjnie i najbardziej „bankowo-praktyczne” są:
   1) **SOC Copilot Incident Triage**,
   2) **Legacy Refactor & Risk Assistant**.
 - Obie opcje najlepiej wspierają cel kursu: **pokazać pracę agenta end-to-end**, a nie tylko „chat z LLM”.
-- **AG-UI/CopilotKit/langgraph4j**: w tej edycji kursu raczej jako **opcjonalny krótki wgląd**, nie jako rdzeń implementacji (koszt złożoności > zysk dydaktyczny w 5 dniach).
+- Branch CopilotKit to **świetna baza referencyjna i demo-optional**, ale **zbyt ciężka jako rdzeń** 5-dniowej ścieżki dla mixed audience.
+- **AG-UI/CopilotKit/langgraph4j**: w tej edycji kursu jako **opcjonalny krótki wgląd**, nie jako core.
 
-> Kolejne kroki (poza E1):
-> - E2: analiza gałęzi `origin/Lucas-sinsay-2nd-February-CopilotKit` jako potencjalnej bazy reuse.
+> Kolejne kroki:
 > - E3: finalna rekomendacja (single preferred + fallback).
