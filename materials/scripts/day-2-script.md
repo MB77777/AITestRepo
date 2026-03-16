@@ -43,6 +43,12 @@ Po Day 2 uczestnicy mają:
 
 ---
 
+## Mapa momentów System 1 / System 2 (Kahneman)
+- **System 1:** 09:00 reset energii po Day 1, framing problemu językiem biznesowym i bólem użytkownika.
+- **System 2:** 10:05 ograniczenia i kryteria akceptacji, 11:15 architektura, 12:05 model domeny i granice odpowiedzialności.
+- **Przełącznik S1→S2:** intuicyjne pomysły z tablicy zawsze kończymy doprecyzowaniem kryterium „jak zmierzymy, że działa”.
+- **Przełącznik S2→S1:** po ADR i task slicing robimy szybkie „po co to ludziom i zespołowi”, żeby decyzje nie były tylko akademickie.
+
 ## 09:00–09:20 — Reset po Day 1 + cel dnia
 
 ### Co mówię

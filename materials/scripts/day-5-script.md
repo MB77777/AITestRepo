@@ -41,6 +41,12 @@ Po Day 5 uczestnicy mają:
 
 ---
 
+## Mapa momentów System 1 / System 2 (Kahneman)
+- **System 1:** 09:00 wejście w finał i narracja demo pod odbiorcę nietechnicznego.
+- **System 2:** 10:05 decyzje techniczne + kompromisy, 11:15 cloud vs on-prem na kryteriach, 12:05 agentic workflow scope.
+- **Przełącznik S1→S2:** każdą tezę z demo podpieramy miernikiem, ryzykiem i planem walidacji.
+- **Przełącznik S2→S1:** po analizie wracamy do planu 30 dni i efektów, które zespół zobaczy od razu.
+
 ## 09:00–09:20 — Wejście w Day 5: z „działa” do „umiem to obronić i wdrożyć”
 
 ### Co mówię

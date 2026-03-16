@@ -42,6 +42,12 @@ Po Day 3 uczestnicy mają:
 
 ---
 
+## Mapa momentów System 1 / System 2 (Kahneman)
+- **System 1:** 09:00 handoff i szybkie przewidywania „co dziś najpewniej się posypie”.
+- **System 2:** 09:20 backend slice na kontrakcie, 10:05 decyzje data-layer, 12:05 pętla diff/test/commit.
+- **Przełącznik S1→S2:** każde „wydaje się OK” zamieniamy na konkretny test lub obserwowalny warunek akceptacji.
+- **Przełącznik S2→S1:** po debugowaniu wracamy do narracji wartości („co to oszczędza w realnym projekcie”).
+
 ## 09:00–09:20 — Handoff z Day 2 i plan budowy na dziś
 
 ### Co mówię

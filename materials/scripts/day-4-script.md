@@ -40,6 +40,12 @@ Po Day 4 uczestnicy mają:
 
 ---
 
+## Mapa momentów System 1 / System 2 (Kahneman)
+- **System 1:** 09:00 handoff ryzyk, szybkie hipotezy gdzie AI mogło „upiększyć” kod kosztem bezpieczeństwa.
+- **System 2:** 09:20 test design, 10:05 code review na diffach, 11:15 security/audit checkpoints.
+- **Przełącznik S1→S2:** intuicyjne „to wygląda dobrze” zawsze przechodzi przez checklistę ryzyk i dowód w testach.
+- **Przełącznik S2→S1:** po ciężkich blokach quality wracamy do „jak to obronić przed audytem i biznesem” prostym językiem.
+
 ## 09:00–09:20 — Handoff z Day 3: co już działa i gdzie dziś grozi chaos
 
 ### Co mówię

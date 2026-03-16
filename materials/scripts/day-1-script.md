@@ -55,6 +55,12 @@ Po Day 1 uczestnicy mają:
 - 15:20–15:45 — Dedykowany mini‑moduł bezpieczeństwa: sandbox, WSL, bash vs PowerShell
 - 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
 
+## Mapa momentów System 1 / System 2 (Kahneman)
+- **System 1 (szybki, intuicyjny):** 09:20 runda zapoznawcza, 09:40 quiz, 10:00 mission kickoff i analogie z codziennej pracy.
+- **System 2 (wolny, analityczny):** 10:25 safe setup krok po kroku, 11:15 porównanie narzędzi na kryteriach, 13:30 prompt anatomy.
+- **Przełącznik S1→S2:** po każdym szybkim demo pada pytanie „jak to zweryfikujemy w praktyce?” i przechodzimy do checklisty.
+- **Przełącznik S2→S1:** po technicznym bloku krótkie „co to daje jutro w Waszym zespole?”, żeby domknąć sens i motywację.
+
 ## 09:00–09:20 — Zoom onboarding + zasady pracy
 ### Why this matters in daily work
 - Nawet najlepszy warsztat siada, jeśli komunikacja i rytm pracy są chaotyczne.
