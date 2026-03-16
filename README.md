@@ -8,4 +8,4 @@ Course workspace for NBP 5-day training.
 - exercises/ - isolated exercise code samples
 - prompts/ - copy/paste prompts used during sessions
 - materials/ - scripts, handouts, references
-- scripts/ - helper scripts for setup/demo
+- materials/scripts/ - helper scripts for setup/demo

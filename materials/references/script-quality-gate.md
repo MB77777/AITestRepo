@@ -8,13 +8,13 @@ Use this checklist before marking any day script task as DONE.
 - Czy na końcu dnia jest jasne przejście do kolejnego dnia?
 
 ## 2) Pokrycie wymagań
-- Czy blok ma: co mówię / co pokazuję / co wklejam na chat / ćwiczenie / feedback / czas?
+- Czy blok ma: co mówię (szczegółowy scenariusz, nie tylko listę punktów) / co pokazuję / co wklejam na chat (konkretne linki, prompty, ćwiczenia, nie tylko brief concept) / ćwiczenie (link do konkretnego pliku md z ćwiczeniem - 1 plik na exercise) / feedback / czas?
 - Czy są sekcje: "Czego się nauczymy" i "Dlaczego warto"?
 - Czy narracja jest po polsku, z wyjaśnieniem angielskich terminów?
 
 ## 3) Czas i wykonalność
 - Czy harmonogram mieści się w 9:00–16:00 + przerwy?
-- Czy estymacje bloków sumują się realistycznie?
+- Czy estymacje bloków sumują się realistycznie i są wykonalne?
 - Czy ćwiczenia są wykonalne na VM i limicie czasowym?
 
 ## 4) Zoom/chat usability
@@ -30,8 +30,10 @@ Use this checklist before marking any day script task as DONE.
 ## 6) Cloud vs on-prem realizm
 - Czy pokazano "max możliwości" (cloud) + "jak to adaptować on-prem"?
 - Czy przykłady CI/CD i integracji są oparte o research i źródła?
+- Czy pokazujemy jak używać modeli alternatywnych (np. Ollama, OpenRouter) w Codex (CLI i App), Claude Code (CLI i Desktop) i w IntelliJ AI Chat? (aby potrafili potem się przenieść na modele on-prem)
 
 ## 7) Styl i ton
+- Czy to co mówię i ćwiczenia są angażujące, ciekawe, zachęcające i motywujące? (to ma być przygoda, nie nudne suche szkolenie)
 - Czy styl jest profesjonalny i klient-facing?
 - Czy humor jest subtelny, nerdowy, bez przesady?
 - Czy jest pozytywna, motywująca narracja (bez języka oceniającego braki)?
