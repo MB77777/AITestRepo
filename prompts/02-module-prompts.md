@@ -1,248 +1,157 @@
-# 02-module-prompts.md — Prompty modułowe (NBP, wersja trenerska)
+# 02-module-prompts.md — Prompty modułowe (zsynchronizowane z Day 1–Day 5)
 
-Cel pliku: gotowe, krótkie prompty „copy/paste na czat” + wersje rozszerzone dla trenera.
+Cel pliku: szybka nawigacja po promptach, które **muszą być zgodne** z inline sekcjami:
+- `materials/scripts/day-1-script.md#prompty-trenerskie-day-1-inline`
+- `materials/scripts/day-2-script.md#prompty-trenerskie-day-2-inline-gotowe-do-wklejenia`
+- `materials/scripts/day-3-script.md#prompty-trenerskie-day-3-inline-gotowe-do-wklejenia`
+- `materials/scripts/day-4-script.md#prompty-trenerskie-day-4-inline-gotowe-do-wklejenia`
+- `materials/scripts/day-5-script.md#prompty-trenerskie-day-5-inline-gotowe-do-wklejenia`
 
-## Zasady użycia
-- Najpierw wrzucaj wersję **CHAT (krótka)** na Zoom/Teams.
-- Gdy grupa potrzebuje więcej kontekstu, przechodź do **WERSJA ROZSZERZONA**.
-- Każdy prompt zakłada workflow: **mały zakres → diff → test → review → poprawka**.
-- W miejscach `<...>` wstawiamy kontekst aktualnego modułu.
+> Źródło prawdy: skrypty dzienne. Ten plik jest indeksem + quick copy.
+
+## Stały kontekst kursu (domyślny)
+- Case kursowy: **SOC Copilot Incident Triage**.
+- Tryb pracy: mały zakres → diff → test → review → poprawka.
+- Ograniczenia: środowisko regulowane, bez danych wrażliwych w promptach.
 
 ---
 
-## Day 1 — Fundamenty, onboarding, pierwszy workflow
+## Day 1 — Fundamenty i start workflow
 
-### D1-M1: Start kursu i kontrakt pracy (AI + bezpieczeństwo)
-**CHAT (krótka):**
+### D1-P1 — Start kursu i kontrakt pracy
 ```text
 Ćwiczenie startowe (5 min):
 1) Napisz 1 zdaniem: gdzie AI realnie pomaga Ci dziś w pracy.
 2) Napisz 1 ryzyko, którego najbardziej chcesz uniknąć.
-Format odpowiedzi: „Pomaga: ... | Ryzyko: ...”
+Format: „Pomaga: ... | Ryzyko: ...”.
 ```
 
-**WERSJA ROZSZERZONA (trener):**
+### D1-P2 — Quiz calibration helper
 ```text
-Pracujemy praktycznie: małe kroki, szybki feedback, bez wstydu i bez „idealnych odpowiedzi”.
-Podaj proszę:
-- 1 konkretny obszar, gdzie AI może skrócić czas pracy w Twoim projekcie,
-- 1 ryzyko (jakość, bezpieczeństwo, zgodność, koszt), które dziś jest dla Ciebie kluczowe.
-Za 5 minut zbieramy odpowiedzi i mapujemy je do planu tygodnia.
+Przeanalizuj wyniki anonimowego quizu podstaw AI.
+Wynik podaj w 3 sekcjach:
+1) Co grupa już umie (max 5 punktów),
+2) Co wymaga doprecyzowania dzisiaj (max 5 punktów),
+3) Jak zmienić tempo Day 2 (3 konkretne decyzje trenerskie).
+Ton: wspierający, bez oceniania.
 ```
 
-### D1-M2: Quiz diagnostyczny (anonimowy)
-**CHAT (krótka):**
+### D1-P3 — MVP scope prompt
 ```text
-Quiz (anonimowy): wypełnij proszę formularz z podstaw AI.
-Cel: dopasowanie tempa i akcentów kursu (nie ocena uczestników).
-Link: <wstaw_link_do_quizu>
-```
-
-**WERSJA ROZSZERZONA (trener):**
-```text
-To quiz kalibracyjny, nie egzamin. Wyniki posłużą do tego, żeby:
-- mniej czasu poświęcić na rzeczy oczywiste,
-- więcej czasu dać tam, gdzie grupa ma realne pytania.
-Po quizie robimy krótkie, pozytywne omówienie pojęć niejasnych.
-```
-
-### D1-M3: Pierwszy prompt „z pomysłu do planu”
-**CHAT (krótka):**
-```text
-Prompt #1 (plan funkcji):
-„Przygotuj plan implementacji funkcji <NAZWA_FUNKCJI> dla aplikacji <NAZWA_APP>.
-Zwróć: 1) cel biznesowy, 2) kryteria akceptacji, 3) ryzyka, 4) najmniejszy sensowny zakres na dziś.
-Bez kodu. Odpowiedź po polsku, punktami.”
-```
-
-**WERSJA ROZSZERZONA (trener):**
-```text
-Działasz jako AI asystent techniczny w projekcie regulowanym.
-Kontekst: <krótki_opis_domeny>
-Ograniczenia: <stack>, <czas>, <wymogi_bezpieczeństwa>
-Zadanie:
-1) Zaproponuj plan funkcji <NAZWA_FUNKCJI>,
-2) Dodaj Definition of Done,
-3) Dodaj listę pytań otwartych do Product Ownera,
-4) Zaproponuj kolejność realizacji (3 małe kroki).
-Format: markdown, max 20 punktów.
+Przygotuj roboczy zakres MVP dla aplikacji „SOC Copilot Incident Triage”.
+Zwróć: cel biznesowy, user story, kryteria akceptacji, out-of-scope,
+3 główne ryzyka i minimalny zakres na 1 dzień pracy.
+Bez kodu. Język: polski.
 ```
 
 ---
 
-## Day 2 — Architektura, dane, ADR, zasady dla agentów
+## Day 2 — Problem framing, architektura, UX/UI
 
-### D2-M1: ADR (decyzja architektoniczna)
-**CHAT (krótka):**
+### D2-P1 — Problem framing
 ```text
-Prompt ADR:
-„Stwórz ADR dla decyzji: <TEMAT_DECYZJI> w projekcie <NAZWA_APP>.
-Uwzględnij: kontekst, opcje, decyzję, konsekwencje, ryzyka, wpływ na bezpieczeństwo i audyt.”
+Jesteś analitykiem produktu dla aplikacji SOC Copilot Incident Triage.
+Przygotuj: problem statement, personę, 5 kryteriów akceptacji,
+listę assumptions/constraints oraz jasne out-of-scope.
+Uwzględnij środowisko bankowe i wymagania audytu.
 ```
 
-**WERSJA ROZSZERZONA (trener):**
+### D2-P2 — Architektura + ADR
 ```text
-Przygotuj ADR-0001.
-Kontekst projektu: <kontekst>
-Opcje do porównania: <opcja_A>, <opcja_B>, <opcja_C>
-Kryteria oceny: prostota wdrożenia, utrzymanie, koszt, zgodność, obserwowalność.
-Dodaj rekomendację i plan walidacji decyzji po 2 sprintach.
+Przygotuj ADR-0001 dla decyzji architektonicznej w projekcie SOC Copilot Incident Triage.
+Uwzględnij: kontekst, opcje, decyzję, konsekwencje, ryzyka,
+wpływ na bezpieczeństwo, audit trail i obsługę on-prem.
 ```
 
-### D2-M2: Model danych i reguły domenowe
-**CHAT (krótka):**
+### D2-P3 — Bridge React -> Angular
 ```text
-„Zaproponuj model danych dla <obszar_domeny>.
-Zwróć: encje, relacje, kluczowe atrybuty, 5 reguł walidacji, 3 przykładowe edge-case’y.”
-```
-
-### D2-M3: System prompt / zasady pracy agenta
-**CHAT (krótka):**
-```text
-„Napisz zwięzły system prompt dla agenta codingowego.
-Wymuś: małe diffy, brak zmian poza zakresem, jawne założenia, checklistę testów, brak sekretów w kodzie.”
-```
-
-**WERSJA ROZSZERZONA (trener):**
-```text
-Przygotuj system prompt do pracy w repo <repo_name>.
-Wymagania:
-- najpierw plan 3-7 kroków,
-- implementacja tylko w uzgodnionym zakresie,
-- po każdej zmianie: co zmieniono i dlaczego,
-- obowiązkowo propozycja testu,
-- zakaz dodawania sekretów i danych wrażliwych,
-- gdy niepewność > jasno zgłoś pytania.
-Format: gotowy blok markdown do AGENTS.md.
+Przygotuj translację podejścia React (demo szkoleniowe) -> Angular (projekt produkcyjny).
+W 2 kolumnach pokaż: co mapuje się 1:1 (kontrakty, testy, slicing zadań),
+a co wymaga translacji frameworkowej (komponenty, stan, routing, tooling).
 ```
 
 ---
 
-## Day 3 — Implementacja rdzenia (Codex-first)
+## Day 3 — Pair programming i implementacja rdzenia
 
-### D3-M1: Prompt implementacyjny (mały slice)
-**CHAT (krótka):**
+### D3-P1 — Mały slice implementacyjny
 ```text
-„Zaimplementuj mały slice: <nazwa_slice>.
+Zaimplementuj mały slice: <nazwa_slice>.
 Zakres: tylko <pliki/moduły>.
 Wynik: diff + krótki opis + lista testów do uruchomienia.
-Nie zmieniaj nic poza zakresem.”
+Nie zmieniaj nic poza zakresem.
 ```
 
-### D3-M2: Prompt debugowy
-**CHAT (krótka):**
+### D3-P2 — Debug loop
 ```text
-„Pomóż zdebugować błąd.
+Pomóż zdebugować błąd.
 Objaw: <objaw>
 Expected: <oczekiwane>
 Actual: <faktyczne>
 Logi: <fragment>
-Zaproponuj: hipotezy, kroki weryfikacji, minimalną poprawkę.”
+Zaproponuj: hipotezy, kroki weryfikacji, minimalną poprawkę.
 ```
 
-### D3-M3: Prompt refaktoryzacyjny (bez zmiany zachowania)
-**CHAT (krótka):**
+### D3-P3 — Refactor bez zmiany zachowania
 ```text
-„Zrefaktoryzuj <moduł> dla czytelności i utrzymania.
+Zrefaktoryzuj <moduł> dla czytelności i utrzymania.
 Nie zmieniaj zachowania biznesowego.
-Dodaj krótkie uzasadnienie zmian i checklistę regresji.”
+Dodaj uzasadnienie zmian i checklistę regresji.
 ```
 
 ---
 
-## Day 4 — Jakość, testy, security, CI/CD
+## Day 4 — Jakość, security, CI/CD
 
-### D4-M1: Generowanie testów do konkretnego zachowania
-**CHAT (krótka):**
+### D4-P1 — Testy krytycznego flow
 ```text
-„Wygeneruj testy dla zachowania: <opis_przypadku>.
+Wygeneruj testy dla zachowania: <opis_przypadku>.
 Bez zmian kodu produkcyjnego, chyba że to konieczne — wtedy opisz dlaczego.
-Dodaj przypadki pozytywne, negatywne i edge-case.”
+Dodaj przypadki pozytywne, negatywne i edge-case.
 ```
 
-### D4-M2: Audit security (legacy/JFTP)
-**CHAT (krótka):**
+### D4-P2 — Legacy JFTP security checkpoint
 ```text
-„Przeprowadź mini-audyt bezpieczeństwa modułu <moduł_legacy>.
-Zwróć: top 5 ryzyk, poziom ryzyka, rekomendację naprawy, priorytet wdrożenia.”
+Zrób security audit fragmentu legacy (JFTP).
+Wypisz min. 5 ryzyk i oznacz każde jako CRITICAL/HIGH/MEDIUM/LOW.
+Dla CRITICAL/HIGH dopisz: fix now + fix next sprint.
+Na końcu decyzja: fix now / mitigate / accept (z uzasadnieniem).
 ```
 
-**WERSJA ROZSZERZONA (trener):**
+### D4-P3 — CI/CD cloud vs on-prem
 ```text
-Kontekst: system legacy, ograniczony czas, nacisk na szybkie ograniczenie ryzyka.
-Przeanalizuj:
-- walidację wejścia,
-- autoryzację,
-- sekrety i konfigurację,
-- logowanie danych wrażliwych,
-- zależności i podatności.
-Wynik: tabela (ryzyko | wpływ | łatka szybka | poprawka docelowa).
-```
-
-### D4-M3: CI/CD cloud vs on-prem
-**CHAT (krótka):**
-```text
-„Porównaj workflow CI/CD dla:
+Porównaj workflow CI/CD:
 A) GitHub Actions (cloud)
 B) Jenkins + GitHub Enterprise (on-prem)
-Dla obu: approvals, security gates, audit trail, koszt utrzymania.”
+Dla obu pokaż: approvals, security gates, audit trail, fallback gdy model/cloud niedostępny.
 ```
 
 ---
 
-## Day 5 — Utrwalenie, on-prem adaptacja, plan 30 dni
+## Day 5 — Domknięcie, audit końcowy, 30 dni
 
-### D5-M1: Finalny audit rozwiązania końcowego
-**CHAT (krótka):**
+### D5-P1 — Finalny audit rozwiązania
 ```text
-„Zrób finalny przegląd rozwiązania <nazwa_app>.
+Zrób finalny przegląd rozwiązania SOC Copilot Incident Triage.
 Oceń: jakość kodu, testowalność, bezpieczeństwo, gotowość do wdrożenia.
-Zaproponuj 3 poprawki o najwyższym ROI.”
+Zaproponuj 3 poprawki o najwyższym ROI.
 ```
 
-### D5-M2: Adaptacja cloud → on-prem
-**CHAT (krótka):**
+### D5-P2 — Adaptacja cloud -> on-prem
 ```text
-„Przygotuj plan adaptacji workflow z cloud do on-prem/local models.
-Uwzględnij: model hosting, sekrety, logowanie, approvals, ograniczenia sieciowe.”
+Przygotuj plan adaptacji workflow z cloud do on-prem/local models.
+Uwzględnij: hosting modeli, sekrety, logowanie, approvals, ograniczenia sieciowe,
+audit wymagany w środowisku regulowanym.
 ```
 
-### D5-M3: Plan 30 dni po szkoleniu
-**CHAT (krótka):**
+### D5-P3 — Plan 30 dni po kursie
 ```text
-„Przygotuj plan 30 dni wdrożenia AI workflow w zespole developerskim.
-Podziel na tygodnie, dodaj KPI, ryzyka i szybkie wygrane.”
+Przygotuj plan 30 dni wdrożenia AI workflow w zespole developerskim.
+Podziel na tygodnie, dodaj KPI, ryzyka i szybkie wygrane.
 ```
 
 ---
 
-## Szybkie prompty awaryjne (fallback na żywo)
-
-### F1: Agent zrobił za duży diff
-```text
-„Zatrzymaj. Cofnij się do minimalnego zakresu: <zakres>.
-Podziel zadanie na 2-3 mniejsze kroki i wykonaj tylko krok 1.”
-```
-
-### F2: Odpowiedź zbyt ogólna
-```text
-„Doprecyzuj odpowiedź operacyjnie:
-- konkretne kroki,
-- konkretne pliki,
-- konkretne testy,
-- kryterium zakończenia.”
-```
-
-### F3: Wątpliwość compliance/security
-```text
-„Wskaż założenia i ryzyka zgodności (dane, audyt, uprawnienia).
-Jeśli brakuje danych — wypisz pytania blokujące zamiast zgadywać.”
-```
-
----
-
-## Powiązania
-- Skrypty dzienne: `materials/scripts/day-1-script.md` ... `day-5-script.md`
-- Ćwiczenia (kolejny krok planu): `exercises/03-exercises.md`
-- Scenariusze demo: `materials/04-demo-scenarios.md`
-- Indeks materiałów: `materials/12-materials-index.md`
+## Uwaga operacyjna
+Jeśli cokolwiek w tym pliku rozjeżdża się z sekcją „Prompty trenerskie Day X” w skryptach dziennych,
+popraw najpierw ten plik tak, aby był 1:1 zgodny ze skryptami.
