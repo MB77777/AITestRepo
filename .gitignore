@@ -6,4 +6,6 @@ backend/backend-run.err.log
 backend/backend-run.out.log
 frontend/.next/
 frontend/node_modules/
+frontend/frontend-run.err.log
+frontend/frontend-run.out.log
 _tmp_ag_ui/
