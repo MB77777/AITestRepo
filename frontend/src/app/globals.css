@@ -1,0 +1,177 @@
+@import "tailwindcss";
+@import "@copilotkit/react-ui/styles.css";
+
+:root {
+  --bg: #f4efe6;
+  --bg-strong: #ece0cb;
+  --panel: rgba(255, 250, 241, 0.9);
+  --ink: #20160f;
+  --muted: #6e5846;
+  --accent: #7b2f1f;
+  --accent-soft: #d38b67;
+  --line: rgba(54, 33, 22, 0.12);
+  --shadow: 0 20px 60px rgba(50, 23, 6, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(211, 139, 103, 0.35), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(123, 47, 31, 0.18), transparent 28%),
+    linear-gradient(180deg, #f9f4ec 0%, #f1e8db 100%);
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.loan-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) 1fr;
+}
+
+.loan-hero {
+  padding: 3rem 2.5rem;
+  border-right: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)),
+    linear-gradient(135deg, rgba(123, 47, 31, 0.12), rgba(123, 47, 31, 0));
+}
+
+.loan-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(123, 47, 31, 0.08);
+  color: var(--accent);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.loan-title {
+  margin: 1.25rem 0 0.75rem;
+  font-size: clamp(2.4rem, 6vw, 4.75rem);
+  line-height: 0.95;
+}
+
+.loan-copy {
+  max-width: 28rem;
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.65;
+}
+
+.loan-metrics {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 2.25rem;
+}
+
+.loan-metric {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(255, 252, 247, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.loan-metric strong {
+  display: block;
+  font-size: 1.35rem;
+}
+
+.loan-chat {
+  padding: 1.5rem;
+}
+
+.loan-chat-card {
+  height: calc(100vh - 3rem);
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+}
+
+.approval-card {
+  background: #fffaf2;
+  color: var(--ink);
+  border: 1px solid rgba(123, 47, 31, 0.22);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 16px 40px rgba(55, 25, 8, 0.1);
+}
+
+.approval-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.approval-list {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.85rem 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.approval-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.7rem 1.05rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff8f2;
+}
+
+.btn-secondary {
+  background: rgba(123, 47, 31, 0.1);
+  color: var(--accent);
+}
+
+@media (max-width: 960px) {
+  .loan-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .loan-hero {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .loan-chat {
+    padding: 1rem;
+  }
+
+  .loan-chat-card {
+    height: 75vh;
+  }
+}

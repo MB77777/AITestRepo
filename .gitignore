@@ -1,3 +1,9 @@
 Dostepy-RDP-AI-dla-programistow-2026-03-16.pdf
 .env
 .env.local
+backend/target/
+backend/backend-run.err.log
+backend/backend-run.out.log
+frontend/.next/
+frontend/node_modules/
+_tmp_ag_ui/

@@ -10,6 +10,14 @@ Course workspace for 5-day training.
 - materials/ - scripts, handouts, references
 - materials/scripts/ - helper scripts for setup/demo
 
+## AG-UI / CopilotKit Bootstrap
+- Before building the backend for the first time, install the local AG-UI Java artifacts:
+  `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\bootstrap-ag-ui-java-sdk.ps1`
+- This clones the AG-UI protocol repo into `_tmp_ag_ui/` and installs the required `com.ag-ui.community` Maven artifacts into the local cache with publishing/signing disabled.
+- Then run:
+  `cd backend && .\mvnw.cmd test`
+- Frontend app lives in `frontend/` and talks to `POST http://localhost:8080/sse/loan-decision-agent` by default.
+
 ## PostgreSQL Setup
 - Windows 11 / Windows Server 2022 with WSL Ubuntu: `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-postgres.ps1`
 - Ubuntu: `bash ./scripts/setup-postgres.sh`
