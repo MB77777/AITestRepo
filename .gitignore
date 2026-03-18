@@ -1,7 +1,7 @@
 Dostepy-RDP-AI-dla-programistow-2026-03-16.pdf
 .env
 .env.local
-backend/.2env2
+backend/.env
 backend/target/
 backend/backend-run.err.log
 backend/backend-run.out.log
