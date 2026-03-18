@@ -106,6 +106,16 @@ docker_packages_installed() {
 }
 
 install_compose_plugin_manually() {
+  if ! command -v curl >/dev/null 2>&1; then
+    if command -v apt-get >/dev/null 2>&1; then
+      log "curl is not installed; installing curl with apt-get so Docker Compose can be downloaded."
+      run_root apt-get update -y
+      run_root apt-get install -y curl
+    else
+      fail "curl is required to download the Docker Compose plugin but is not installed. Please install curl and re-run this script."
+    fi
+  fi
+
   local arch
   arch="$(uname -m)"
   case "$arch" in
