@@ -52,7 +52,7 @@ public class LoanDecisionAgentConfig {
             Dotenv dotenv,
             @Value("${loan-copilot.model.provider:auto}") String provider,
             @Value("${loan-copilot.model.openai.model:gpt-4o-mini}") String openAiModel,
-            @Value("${loan-copilot.model.openrouter.base-url:https://openrouter.ai/api/v1}") String openRouterBaseUrl,
+            @Value("${loan-copilot.model.openrouter.base-url:https://openrouter.ai/api}") String openRouterBaseUrl,
             @Value("${loan-copilot.model.openrouter.model:openai/gpt-5.2}") String openRouterModel,
             @Value("${loan-copilot.model.ollama.base-url:http://localhost:11434}") String ollamaBaseUrl,
             @Value("${loan-copilot.model.ollama.model:qwen2.5:7b}") String ollamaModel
