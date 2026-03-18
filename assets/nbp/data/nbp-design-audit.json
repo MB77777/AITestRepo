@@ -1,0 +1,2894 @@
+{
+  "capturedAt": "2026-03-18T14:46:17.328Z",
+  "url": "https://nbp.pl/",
+  "title": "Narodowy Bank Polski - Internetowy Serwis Informacyjny | Dbamy o wartość polskiego pieniądza",
+  "lang": "pl-PL",
+  "metaTheme": "#8a8a8a",
+  "cookieBannerAccepted": true,
+  "bodyClass": "home blog wp-custom-logo wp-theme-nbp tribe-js",
+  "stylesheets": [
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/tribe-events-pro-mini-calendar-block.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-includes/css/dist/block-library/style.min.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/themes/nbp/assets/main.min.css?ver=1770972084",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/ajax-search-lite/css/style.basic.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/ajax-search-lite/css/style-underline.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/events-virtual-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/custom-tables-v1/archives.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/widget-shortcode-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/widget-shortcode-full.css",
+      "media": "all"
+    },
+    {
+      "href": "https://consent.cookiefirst.com/banner/v3.0.16/static-main/vYKRwI.css",
+      "media": "all"
+    },
+    {
+      "href": "https://consent.cookiefirst.com/banner/v3.0.16/static-main/BIKX0q.css",
+      "media": "all"
+    },
+    {
+      "href": "https://consent.cookiefirst.com/banner/v3.0.16/static-main/CcpQj4.css",
+      "media": "all"
+    },
+    {
+      "href": "https://consent.cookiefirst.com/banner/v3.0.16/static-main/BTMpc5.css",
+      "media": "all"
+    },
+    {
+      "href": "https://consent.cookiefirst.com/banner/v3.0.16/static-main/Btw0sl.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/common/build/css/variables-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/common/build/css/common-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/common/vendor/tooltipster/tooltipster.bundle.min.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/build/css/views-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/views-skeleton.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/common/build/css/variables-full.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/common/build/css/common-full.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/build/css/views-full.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/views-full.css",
+      "media": "all"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/views-print.css",
+      "media": "print"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/the-events-calendar/build/css/views-print.css",
+      "media": "print"
+    },
+    {
+      "href": "https://nbp.pl/wp-content/plugins/events-calendar-pro/build/css/widgets-events-common-skeleton.css",
+      "media": "all"
+    }
+  ],
+  "icons": [
+    {
+      "rel": "Shortcut Icon",
+      "href": "https://nbp.pl/favicon.ico",
+      "sizes": "",
+      "type": "image/x-icon"
+    },
+    {
+      "rel": "icon",
+      "href": "https://nbp.pl/wp-content/uploads/2023/10/favicon-1.png",
+      "sizes": "32x32",
+      "type": ""
+    },
+    {
+      "rel": "icon",
+      "href": "https://nbp.pl/wp-content/uploads/2023/10/favicon-1.png",
+      "sizes": "192x192",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://nbp.pl/wp-content/uploads/2023/10/favicon-1.png",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "rootVars": {
+    "--bs-orange": "#fd7e14",
+    "--tec-grid-width": "calc(1176px + 42px*2)",
+    "--cc-webkit-scrollbar-bg": "#cfd5db",
+    "--wp--preset--font-size--large": "36px",
+    "--tec-spacer-13": "96px",
+    "--tec-font-size-5": "18px",
+    "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+    "--tec-color-icon-secondary": "#bababa",
+    "--tec-z-index-map-event-hover-actions": "6",
+    "--cc-overlay-bg": "#040608",
+    "--tec-border-width-week-event": "2px",
+    "--tec-z-index-search": "10",
+    "--tec-color-background-subscribe-list-item-hover": "#f7f6f6",
+    "--tec-spacer-3": "16px",
+    "--tec-z-index-spinner-container": "100",
+    "--success": "#28A745",
+    "--tec-spacer-14": "160px",
+    "--tec-color-accent-primary-background": "#334aff12",
+    "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+    "--tec-z-index-dropdown": "30",
+    "--cc-border-radius": ".45rem",
+    "--bs-body-line-height": "1.5",
+    "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+    "--cc-btn-secondary-hover-text": "#2d4156",
+    "--tec-color-accent-secondary": "#141827",
+    "--tec-color-text-secondary-event-date": "#5d5d5d",
+    "--wp--preset--shadow--deep": "12px 12px 50px rgba(0, 0, 0, 0.4)",
+    "--tec-color-button-secondary-active": "#141827e6",
+    "--bs-cyan": "#0dcaf0",
+    "--bs-purple": "#6f42c1",
+    "--tec-box-shadow-tooltip": "0 2px 12px 0 rgba(#000,0.14)",
+    "--tec-color-day-marker-current-month": "#141827",
+    "--tec-grid-gutter-page": "42px",
+    "--tec-color-day-marker-past-month-active": "#141827",
+    "--tec-color-recurring-icon-map": "#141827",
+    "--tec-spacer-12": "80px",
+    "--bs-info-rgb": "16, 187, 239",
+    "--tec-opacity-background": "0.07",
+    "--tec-line-height-0": "1.38",
+    "--tec-z-index-events-bar-button": "20",
+    "--tec-grid-gutter": "48px",
+    "--wp-admin-theme-color--rgb": "0,124,186",
+    "--tec-z-index-views-selector": "30",
+    "--tec-color-background-events-bar-submit-button-hover": "#334affcc",
+    "--tec-color-text-events-bar-submit-button": "#fff",
+    "--tec-font-size-3": "14px",
+    "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+    "--main-black": "#4B4B4B",
+    "--bs-pink": "#d63384",
+    "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+    "--tec-grid-gutter-negative": "calc(48px*-1)",
+    "--bs-gray-100": "#F9F8F8",
+    "--tec-color-icon-primary-alt": "#757575",
+    "--tec-color-icon-error": "#da394d",
+    "--bs-white": "#fff",
+    "--tec-color-background-view-selector-tabs": "#fff",
+    "--tec-color-recurring-icon-week-hover": "#141827",
+    "--cc-toggle-bg-off": "#919ea6",
+    "--cc-font-size": "16px",
+    "--bs-danger": "#E50040",
+    "--tec-color-background-events-bar-submit-button": "#334aff",
+    "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+    "--wp--preset--shadow--natural": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+    "--add-blue-link": "#4A74B0",
+    "--tec-color-background-secondary-datepicker": "#f7f6f6",
+    "--tec-font-size-6": "19px",
+    "--cc-block-text": "#2d4156",
+    "--tec-grid-width-1-of-5": "20%",
+    "--bs-gray-500": "#E4E4E4",
+    "--bs-teal": "#20c997",
+    "--danger": "#DC3545",
+    "--tec-color-text-events-title": "#141827",
+    "--tec-form-color-border-secondary": "#7d7d7d",
+    "--tec-opacity-select-highlighted": "0.3",
+    "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+    "--bs-dark": "#333333",
+    "--tec-color-accent-primary-week-event-featured": "#334aff0a",
+    "--wp--preset--shadow--crisp": "6px 6px 0px rgb(0, 0, 0)",
+    "--bs-gray-800": "#949191",
+    "--tec-color-border-hover": "#5d5d5d",
+    "--tec-color-background": "#fff",
+    "--tec-color-recurring-icon-week": "#141827",
+    "--cc-cookie-category-block-bg": "#f0f4f7",
+    "--wp--preset--spacing--80": "5.06rem",
+    "--tec-color-accent-primary-week-event-featured-hover": "#334aff24",
+    "--bs-primary-rgb": "74, 116, 176",
+    "--wp--preset--font-size--medium": "20px",
+    "--tec-color-category-text": "#141827",
+    "--tec-font-size-7": "21px",
+    "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+    "--tec-color-box-shadow-secondary": "rgba(#000,0.1)",
+    "--tec-color-scroll-track": "rgba(#000,0.25)",
+    "--tec-opacity-icon-active": "0.9",
+    "--cc-cookie-table-border": "#e9edf2",
+    "--bs-success-rgb": "88, 135, 62",
+    "--tec-color-text-disabled": "#d5d5d5",
+    "--tec-color-icon-events-bar": "#5d5d5d",
+    "--tec-color-background-secondary": "#f7f6f6",
+    "--tec-color-background-messages": "#14182712",
+    "--bs-yellow": "#ffc107",
+    "--tec-color-link-primary": "#141827",
+    "--tec-z-index-multiday-event": "5",
+    "--bs-info": "#10BBEF",
+    "--tec-color-recurring-icon-month-multiday-hover": "#141827",
+    "--tec-color-recurring-icon-list": "#141827",
+    "--tec-color-background-transparent": "#fff9",
+    "--tec-grid-gutter-half": "calc(48px/2)",
+    "--tec-font-size-10": "37px",
+    "--tec-grid-width-1-of-7": "14.285%",
+    "--tec-color-border-tertiary": "#7d7d7d",
+    "--tec-color-recurring-icon-month-hover": "#141827",
+    "--wp--preset--aspect-ratio--16-9": "16/9",
+    "--wp--preset--color--pale-pink": "#f78da7",
+    "--wp-block-synced-color--rgb": "122,0,223",
+    "--tec-color-background-secondary-multiday-hover": "#14182757",
+    "--tec-color-background-error": "#da394d14",
+    "--tec-color-background-secondary-multiday": "#1418273d",
+    "--tec-color-accent-primary-hover": "#334affcc",
+    "--tec-line-height-1": "1.42",
+    "--white": "#FFFFFF",
+    "--tec-color-accent-primary-week-event-hover": "#334aff33",
+    "--bs-font-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--cc-toggle-knob-bg": "#fff",
+    "--tec-font-size-9": "28px",
+    "--tec-color-background-primary-multiday-hover": "#334aff57",
+    "--tec-color-text-events-bar-submit-button-active": "#fff",
+    "--tec-line-height-3": "1.62",
+    "--tec-color-button-primary-active": "#334affe6",
+    "--tec-grid-gutter-page-small": "19.5px",
+    "--bs-danger-rgb": "229, 0, 64",
+    "--tec-font-size-1": "11px",
+    "--tec-color-recurring-icon-day": "#141827",
+    "--bs-gray-200": "#F1EFEF",
+    "--cc-btn-primary-bg": "#2d4156",
+    "--tec-opacity-default": "1",
+    "--bs-body-font-size": "1rem",
+    "--tec-spacer-0": "4px",
+    "--bs-secondary": "#152E52",
+    "--wp--preset--aspect-ratio--2-3": "2/3",
+    "--tec-color-day-marker-month": "#141827",
+    "--tec-grid-gutter-small-half": "calc(42px/2)",
+    "--tec-color-recurring-icon-week-multiday-hover": "#141827",
+    "--wp--preset--font-size--x-large": "42px",
+    "--tec-color-background-primary-multiday": "#334aff3d",
+    "--wp--preset--font-size--normal": "16px",
+    "--bs-gray-dark": "#949191",
+    "--tec-z-index-filters": "9",
+    "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+    "--tec-grid-gutter-small": "42px",
+    "--tec-opacity-icon-hover": "0.8",
+    "--tec-color-background-tooltip": "#fff",
+    "--cc-btn-secondary-hover-bg": "#d8e0e6",
+    "--tec-color-text-secondary-event-date-month-mobile": "#5d5d5d",
+    "--cc-btn-primary-hover-bg": "#1d2e38",
+    "--wp--preset--font-size--small": "13px",
+    "--tec-color-category-legend-default-3": "#b433ff",
+    "--tec-transition-transform": "transform 0.2s ease",
+    "--bs-white-rgb": "255, 255, 255",
+    "--tec-color-text-events-bar-input": "#141827",
+    "--tec-font-size-8": "25px",
+    "--tec-form-color-accent-primary": "#334aff",
+    "--tec-outline-color-default": "#141827",
+    "--tec-outline-active-default": "2px solid #141827",
+    "--wp-block-synced-color": "#7a00df",
+    "--tec-color-icon-active": "#141827",
+    "--main-blue": "#152E52",
+    "--bs-font-sans-serif": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--wp--preset--color--light-green-cyan": "#7bdcb5",
+    "--tec-color-category-legend-default-4": "#f20000",
+    "--tec-color-day-marker-past-month-hover": "#141827",
+    "--tec-color-button-secondary-hover": "#141827cc",
+    "--tec-color-text-events-title-widget-list": "#141827",
+    "--cc-z-index": "2147483647",
+    "--tec-grid-width-default": "1176px",
+    "--tec-form-color-border-default": "#141827",
+    "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+    "--bs-light-rgb": "217, 217, 217",
+    "--tec-box-shadow-default": "0 2px 5px 0 rgba(#000,0.14)",
+    "--tec-color-text-events-title-latest-past": "#141827",
+    "--wp-admin-border-width-focus": "2px",
+    "--tec-grid-gutter-small-negative": "calc(42px*-1)",
+    "--tec-color-recurring-icon-photo-hover": "#141827",
+    "--tec-spacer-4": "20px",
+    "--tec-color-scroll-bar": "rgba(#000,0.5)",
+    "--tec-color-recurring-icon-photo": "#141827",
+    "--tec-z-index-week-event-hover": "5",
+    "--wp-admin-theme-color-darker-10": "#006ba1",
+    "--bs-body-bg": "#fff",
+    "--bg-2": "#E9E7E3",
+    "--tec-color-day-marker-current-month-active": "",
+    "--tec-color-icon-events-bar-active": "#141827",
+    "--tec-grid-width-1-of-8": "12.5%",
+    "--tec-color-border-events-bar": "#e4e4e4",
+    "--tec-color-text-day-of-week-week": "#5d5d5d",
+    "--tec-color-recurring-icon-list-hover": "#141827",
+    "--tec-color-background-secondary-hover": "#f0eeee",
+    "--tec-border-radius-month-multiday": "9.5px",
+    "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+    "--wp--preset--spacing--20": "0.44rem",
+    "--tec-color-icon-disabled": "#d5d5d5",
+    "--bs-body-color": "#323232",
+    "--tec-color-recurring-icon-month-multiday": "#141827",
+    "--tec-opacity-events-bar-input-placeholder": "1",
+    "--tec-color-event-icon-hover": "#334aff",
+    "--wp-admin-theme-color-darker-20": "#005a87",
+    "--tec-color-link-accent-hover": "#334affcc",
+    "--wp--preset--shadow--outlined": "6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0)",
+    "--cc-toggle-bg-readonly": "#d5dee2",
+    "--cc-btn-primary-hover-text": "#fff",
+    "--tec-color-text-events-title-month-multiday": "#141827",
+    "--bs-success": "#58873E",
+    "--tec-box-shadow-multiday": "16px 6px 6px -2px rgba(#000,0.1)",
+    "--wp--preset--color--vivid-purple": "#9b51e0",
+    "--tec-form-color-background": "#fff",
+    "--tec-font-family-sans-serif": "\"Helvetica Neue\",Helvetica,-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif",
+    "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+    "--tec-grid-gutter-small-half-negative": "calc(calc(42px/2)*-1)",
+    "--tec-font-size-0": "10px",
+    "--tec-outline-width-default": "2px",
+    "--tec-events-border-radius-circle": "50%",
+    "--tec-color-recurring-icon-week-multiday": "#141827",
+    "--bs-warning-rgb": "255, 193, 7",
+    "--wp-bound-block-color": "#7a00df",
+    "--bs-body-font-weight": "400",
+    "--tec-spacer-6": "28px",
+    "--cc-btn-secondary-bg": "#eaeff2",
+    "--bs-primary": "#4A74B0",
+    "--tec-transition-border-color": "border-color 0.2s ease",
+    "--tec-color-event-icon": "#141827",
+    "--tec-spacer-7": "32px",
+    "--tec-color-accent-primary-week-event": "#334aff1a",
+    "--tec-color-box-shadow": "rgba(#000,0.14)",
+    "--bs-body-rgb": "50, 50, 50",
+    "--tec-spacer-5": "24px",
+    "--tec-border-radius-default": "4px",
+    "--bs-green": "#198754",
+    "--tec-grid-gutter-half-negative": "calc(calc(48px/2)*-1)",
+    "--tec-color-text-secondary": "#5d5d5d",
+    "--tec-color-text-event-title-list": "#141827",
+    "--hover-btn": "#285289",
+    "--wp-admin-theme-color-darker-20--rgb": "0,90,135",
+    "--wp--preset--spacing--40": "1rem",
+    "--bs-gray-400": "#E0E0E0",
+    "--tec-color-background-events-bar-submit-button-active": "#334affe6",
+    "--tec-color-border-active": "#141827",
+    "--tec-form-box-shadow-default": "0 2px 5px 0 rgba(#000,0.14)",
+    "--tec-color-text-primary-light": "#1418279e",
+    "--tec-color-category-legend-default-5": "#ffd333",
+    "--tec-color-button-primary-background": "#334aff12",
+    "--tec-color-background-events": "#0000",
+    "--tec-color-accent-secondary-hover": "#141827cc",
+    "--tec-spacer-2": "12px",
+    "--tec-font-size-2": "12px",
+    "--tec-color-background-events-bar": "#fff",
+    "--tec-color-day-marker-past-month": "#141827",
+    "--bs-gray-600": "#D3D3D3",
+    "--wp-admin-theme-color-darker-10--rgb": "0,107,160.5",
+    "--tec-grid-width-1-of-3": "33.333%",
+    "--wp--preset--spacing--30": "0.67rem",
+    "--wp--preset--spacing--50": "1.5rem",
+    "--tec-color-link-accent": "#334aff",
+    "--bg-1": "#F3F3F3",
+    "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+    "--bs-dark-rgb": "51, 51, 51",
+    "--tec-color-border-secondary": "#e4e4e4",
+    "--add-dark-gray": "#606060",
+    "--bs-gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))",
+    "--tec-color-text-primary": "#141827",
+    "--cc-toggle-knob-icon-color": "#ecf2fa",
+    "--tec-color-border-active-month-grid-hover": "#141827",
+    "--tec-font-weight-bold": "700",
+    "--tec-color-button-primary-hover": "#334affcc",
+    "--tec-color-background-view-selector": "#fff",
+    "--tec-color-text-secondary-event-date-month": "#5d5d5d",
+    "--tec-font-weight-regular": "400",
+    "--bs-indigo": "#6610f2",
+    "--tec-transition-opacity": "opacity 0.2s ease",
+    "--cc-btn-border-radius": "0.375rem",
+    "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+    "--main-gold": "#D4AF37",
+    "--tec-color-day-marker-current-month-hover": "",
+    "--tec-color-icon-events-bar-hover": "",
+    "--wp--preset--color--vivid-red": "#cf2e2e",
+    "--tec-transition-background-color": "background-color 0.2s ease",
+    "--tec-color-text-events-bar-input-placeholder": "#5d5d5d",
+    "--tec-color-text-event-title": "#141827",
+    "--tec-grid-width-1-of-9": "11.111%",
+    "--tec-color-text-day-of-week-month": "#5d5d5d",
+    "--wp--preset--aspect-ratio--square": "1",
+    "--tec-grid-width-min": "320px",
+    "--tec-font-size-4": "16px",
+    "--tec-color-recurring-icon-day-hover": "#141827",
+    "--tec-color-category-legend-default-1": "#334aff",
+    "--tec-color-border-default": "#d5d5d5",
+    "--tec-transition": "all 0.2s ease",
+    "--tec-box-shadow-card": "0 1px 6px 2px rgba(#000,0.14)",
+    "--cc-btn-secondary-text": "#2d4156",
+    "--tec-events-border-radius-pill": "1em",
+    "--tec-color-button-primary": "#334aff",
+    "--wp--preset--color--black": "#000000",
+    "--bs-black-rgb": "0, 0, 0",
+    "--tec-spacer-1": "8px",
+    "--tec-color-button-secondary": "#141827",
+    "--bs-warning": "#ffc107",
+    "--bs-blue": "#0d6efd",
+    "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+    "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+    "--bs-gray": "#D3D3D3",
+    "--cc-bg": "#fff",
+    "--tec-color-accent-primary-background-datepicker": "#334aff12",
+    "--tec-outline-offset-default": "2px",
+    "--tec-color-day-marker-month-hover": "",
+    "--tec-color-twentyseventeen-dark-background": "#222",
+    "--tec-color-button-secondary-background": "#14182712",
+    "--tec-transition-color": "color 0.2s ease",
+    "--tec-color-text-events-bar-submit-button-hover": "#fff",
+    "--tec-z-index-map-event-hover": "5",
+    "--tec-color-text-view-selector-list-item-hover": "#141827cc",
+    "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+    "--tec-color-background-search-container": "#fff",
+    "--wp--preset--spacing--60": "2.25rem",
+    "--wp--preset--color--vivid-green-cyan": "#00d084",
+    "--cc-btn-primary-text": "#fff",
+    "--wp-editor-canvas-background": "#ddd",
+    "--tec-z-index-scroller": "7",
+    "--tec-color-icon-primary": "#5d5d5d",
+    "--cc-overlay-opacity": ".85",
+    "--wp-admin-theme-color": "#007cba",
+    "--tec-color-day-marker-month-active": "",
+    "--tec-color-recurring-icon-map-hover": "#141827",
+    "--tec-color-accent-secondary-background": "#14182712",
+    "--tec-transition-color-border-color": "color 0.2s ease,border-color 0.2s ease",
+    "--cc-cookie-category-block-bg-hover": "#e9eff4",
+    "--wp--preset--aspect-ratio--3-2": "3/2",
+    "--cc-toggle-bg-on": "#2d4156",
+    "--tec-color-recurring-icon-month": "#141827",
+    "--wp--preset--font-size--huge": "42px",
+    "--tec-form-color-border-active": "#141827",
+    "--bs-red": "#dc3545",
+    "--bs-gray-700": "#C4C4C4",
+    "--tec-z-index-multiday-event-bar": "2",
+    "--tec-color-accent-secondary-active": "#141827e6",
+    "--bs-secondary-rgb": "21, 46, 82",
+    "--tec-grid-width-1-of-4": "25%",
+    "--tec-color-icon-focus": "#334aff",
+    "--tec-spacer-9": "48px",
+    "--tec-color-accent-primary": "#334aff",
+    "--tec-color-background-month-grid": "#0000",
+    "--wp--preset--aspect-ratio--4-3": "4/3",
+    "--cc-text": "#2d4156",
+    "--tec-spacer-8": "40px",
+    "--wp--preset--spacing--70": "3.38rem",
+    "--tec-grid-width-1-of-2": "50%",
+    "--tec-spacer-10": "56px",
+    "--tec-outline-style-default": "solid",
+    "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+    "--color-twentyseventeen-dark-background": "#222",
+    "--bs-btn-close-filter": "",
+    "--tec-color-text-event-date": "#141827",
+    "--wp--preset--aspect-ratio--9-16": "9/16",
+    "--bs-body-font-family": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--tec-color-category-legend-default-2": "#58c200",
+    "--cc-consent-modal-box-shadow": "0 0.625rem 1.875rem rgba(2,2,3,.28)",
+    "--cc-section-border": "#f1f3f5",
+    "--tec-spacer-11": "64px",
+    "--wp--preset--shadow--sharp": "6px 6px 0px rgba(0, 0, 0, 0.2)",
+    "--wp--preset--color--white": "#ffffff",
+    "--cc-webkit-scrollbar-bg-hover": "#9199a0",
+    "--tec-color-border-secondary-month-grid": "#e4e4e4",
+    "--tec-color-text-events-title-day": "#141827",
+    "--wp--preset--aspect-ratio--3-4": "3/4",
+    "--tec-color-background-view-selector-list-item-hover": "#f7f6f6",
+    "--bs-gray-300": "#F0F0F0",
+    "--bs-gray-900": "#323232",
+    "--tec-color-text-view-selector-list-item": "#141827",
+    "--bs-light": "#D9D9D9",
+    "--tec-line-height-2": "1.5",
+    "--tec-color-accent-primary-active": "#334affe6"
+  },
+  "componentSamples": [
+    {
+      "selector": "body",
+      "tag": "body",
+      "classes": [
+        "home",
+        "blog",
+        "wp-custom-logo",
+        "wp-theme-nbp",
+        "tribe-js"
+      ],
+      "text": "<iframe src=https://www.googletagmanager.com/ns.html?id=GTM-5PJC7ZVD height=\"0\" width=\"0\" style=\"display:none;visibility",
+      "styles": {
+        "color": "rgb(70, 70, 70)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(70, 70, 70)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "header",
+      "tag": "header",
+      "classes": [
+        "navbar",
+        "navbar-expand-lg"
+      ],
+      "text": "Generic selectors Tylko dokładne dopasowania Szukaj w tytule Szukaj w treści Post Type Selectors Menu Menu Tematycznie A",
+      "styles": {
+        "color": "rgb(70, 70, 70)",
+        "backgroundColor": "rgb(21, 46, 82)",
+        "borderColor": "rgb(70, 70, 70)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "flex",
+        "transition": "0.3s ease-in-out"
+      }
+    },
+    {
+      "selector": "nav",
+      "tag": "nav",
+      "classes": [
+        "nav-main",
+        "collapse"
+      ],
+      "text": "Tematycznie Alfabetycznie Szukaj Nie znaleziono w menu terminu Spróbuj wyszukać w całym serwisie. O NBPPokaż kategorie O",
+      "styles": {
+        "color": "rgb(70, 70, 70)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(70, 70, 70)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px 0px 49.5741px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "none",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "main",
+      "tag": "main",
+      "classes": [
+        "main"
+      ],
+      "text": "Narodowy Bank Polski - Strona główna Narodowy Bank Polski o finansowaniu potrzeb zbrojeniowych PolskiKomunikaty NBPWięce",
+      "styles": {
+        "color": "rgb(70, 70, 70)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(70, 70, 70)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "footer",
+      "tag": "footer",
+      "classes": [
+        "footer"
+      ],
+      "text": "Narodowy Bank Polski ul. Świętokrzyska 11/21 00-919 Warszawa tel. centr.: 22 185 10 00 e-mail: listy@nbp.pl eDoręczenia:",
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(21, 46, 82)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px 0px 24.7871px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "h1",
+      "tag": "h1",
+      "classes": [
+        "visually-hidden"
+      ],
+      "text": "Narodowy Bank Polski - Strona główna",
+      "styles": {
+        "color": "rgb(21, 46, 82)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(21, 46, 82)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Brygada 1918\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "33.0494px",
+        "fontWeight": "500",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "-1px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "h2",
+      "tag": "h2",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "text": "Narodowy Bank Polski o finansowaniu potrzeb zbrojeniowych Polski",
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Brygada 1918\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "33.0494px",
+        "fontWeight": "500",
+        "lineHeight": "44px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px 0px 16.5247px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "h3",
+      "tag": "h3",
+      "classes": [],
+      "text": "Wypowiedź rzecznika prasowego NBP",
+      "styles": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(51, 51, 51)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "600",
+        "lineHeight": "24px",
+        "letterSpacing": "-0.0103279px",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px 0px 16px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "p",
+      "tag": "p",
+      "classes": [
+        "carousel-caption__excerpt"
+      ],
+      "text": "Komunikaty NBP",
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px 0px 24.7871px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "a",
+      "tag": "a",
+      "classes": [
+        "skip-link",
+        "visually-hidden",
+        "visually-hidden-focusable"
+      ],
+      "text": "Przeskocz do treści",
+      "styles": {
+        "color": "rgb(74, 116, 176)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(74, 116, 176)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "-1px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "color 0.3s ease-in-out"
+      }
+    },
+    {
+      "selector": "button",
+      "tag": "button",
+      "classes": [
+        "promagnifier"
+      ],
+      "text": "",
+      "styles": {
+        "color": "rgb(70, 70, 70)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(70, 70, 70)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": "input",
+      "tag": "input",
+      "classes": [
+        "orig"
+      ],
+      "text": "",
+      "styles": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "16.5247px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "block",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": ".menu",
+      "tag": "ul",
+      "classes": [
+        "menu"
+      ],
+      "text": "LinkedIn Facebook Twitter Youtube Instagram Flickr Aplikacja mobilna",
+      "styles": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px 0px 16px",
+        "gap": "normal",
+        "display": "flex",
+        "transition": "all"
+      }
+    },
+    {
+      "selector": ".custom-logo",
+      "tag": "img",
+      "classes": [
+        "custom-logo"
+      ],
+      "text": "",
+      "styles": {
+        "color": "rgb(74, 116, 176)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(74, 116, 176)",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "fontFamily": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "fontSize": "15.4919px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "padding": "0px",
+        "margin": "0px",
+        "gap": "normal",
+        "display": "inline",
+        "transition": "opacity 0.3s"
+      }
+    }
+  ],
+  "logoCandidates": [
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/nbp-logo.svg",
+      "alt": "Logotyp NBP",
+      "width": 205,
+      "height": 64,
+      "className": "custom-logo"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/03/Wazny-komunikat-slider-1920x800-1.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/11/NowaStrona-Slider-Mobile.png",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/03/Tarnowski-1920x800-1.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/03/Tarnowski-3-2.jpg",
+      "alt": "",
+      "width": 660,
+      "height": 440,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/Decyzja-RPP-NowaStrona-Slider.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/Decyzja-RPP-NowaStrona-Slider-Mobile.jpg",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/Slider-konf-7.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/900x600-2_NBP-banner.jpg",
+      "alt": "",
+      "width": 900,
+      "height": 600,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/Decyzja-RPP-NowaStrona-Slider.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/02/Decyzja-RPP-NowaStrona-Slider-Mobile.jpg",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/02/100_zl-1920x800-1.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/02/100_zl-3-2.jpg",
+      "alt": "",
+      "width": 660,
+      "height": 440,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/03/Wazny-komunikat-slider-1920x800-1.jpg",
+      "alt": "",
+      "width": 1920,
+      "height": 800,
+      "className": "d-none d-md-none d-lg-block large"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2023/11/NowaStrona-Slider-Mobile.png",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "className": "d-block d-md-block d-lg-none small"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/03/Tarnowski-Au-R-300x300.jpg",
+      "alt": "Hetmani Rzeczypospolitej – Jan Tarnowski, 500 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2026/02/2026_01___100zl_R-300x300.jpg",
+      "alt": "Polskie banknoty obiegowe – Banknot o nominale 100 zł, 100 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2025/12/2026_01___Konarski_R-300x300.jpg",
+      "alt": "Skarby sztuki medalierskiej – Stanisław Konarski, 50 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2025/12/2025_19___Ossowski_R-300x300.jpg",
+      "alt": "Skarby sztuki medalierskiej – Michał Ossowski, 50 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2025/11/2025_18___5_zl_R-300x300.jpg",
+      "alt": "Historia monety polskiej – 5 złotych z okresu powstania listopadowego, 20 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2025/11/2025_17___brzeg_R-300x300.jpg",
+      "alt": "Odkryj Polskę – Ratusz w Brzegu, 5 zł, rewers",
+      "width": 300,
+      "height": 300,
+      "className": ""
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bankikredyt.jpeg",
+      "alt": "Bank i Kredyt - logotyp",
+      "width": 111,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bip.jpeg",
+      "alt": "Biuletyn Informacji Publicznej - logotyp",
+      "width": 140,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/obserwatorfinansowy.jpeg",
+      "alt": "Logotyp obserwatora finansowego",
+      "width": 126,
+      "height": 43,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bankikredyt.jpeg",
+      "alt": "Bank i Kredyt - logotyp",
+      "width": 111,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bip.jpeg",
+      "alt": "Biuletyn Informacji Publicznej - logotyp",
+      "width": 140,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/obserwatorfinansowy.jpeg",
+      "alt": "Logotyp obserwatora finansowego",
+      "width": 126,
+      "height": 43,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bankikredyt.jpeg",
+      "alt": "Bank i Kredyt - logotyp",
+      "width": 111,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/bip.jpeg",
+      "alt": "Biuletyn Informacji Publicznej - logotyp",
+      "width": 140,
+      "height": 50,
+      "className": "img-fluid"
+    },
+    {
+      "src": "https://nbp.pl/wp-content/uploads/2022/07/obserwatorfinansowy.jpeg",
+      "alt": "Logotyp obserwatora finansowego",
+      "width": 126,
+      "height": 43,
+      "className": "img-fluid"
+    },
+    {
+      "src": "",
+      "alt": "Logotyp/Footer NBP",
+      "width": 0,
+      "height": 0,
+      "className": "lazy lazy footer-logo"
+    },
+    {
+      "src": "",
+      "alt": "Logotyp/Footer NBP",
+      "width": 0,
+      "height": 0,
+      "className": "lazy lazy footer-logo"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Narodowy Bank Polski - Strona główna",
+      "classes": [
+        "visually-hidden"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 46, 82)"
+    },
+    {
+      "tag": "h2",
+      "text": "Narodowy Bank Polski o finansowaniu potrzeb zbrojeniowych Polski",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Nowe monety kolekcjonerskie NBP: „Jan Tarnowski”",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Narodowy Bank Polski o projekcji inflacji i PKB",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Ocena bieżącej sytuacji ekonomicznej w Polsce, marzec 2026",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Komunikat prasowy z posiedzenia Rady Polityki Pieniężnej w dniach 3-4 marca 2026 r.",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "„Banknot o nominale 100 zł” nowa moneta kolekcjonerska NBP",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Prof. Adam Glapiński, Prezes NBP: Narodowy Bank Polski podjął decyzję o dalszym zwiększeniu rezerw złota do poziomu 700 ton",
+      "classes": [
+        "carousel-caption__title"
+      ],
+      "fontSize": "33.0494px",
+      "fontWeight": "500",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "h2",
+      "text": "Aktualności",
+      "classes": [
+        "module-title"
+      ],
+      "fontSize": "24.7871px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 46, 82)"
+    },
+    {
+      "tag": "h3",
+      "text": "Wypowiedź rzecznika prasowego NBP",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Wyniki przetargu sprzedaży bonów pieniężnych NBP przeprowadzonego w dniu 16.03.2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Inflacja bazowa w lutym 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Narodowy Bank Polski o finansowaniu potrzeb zbrojeniowych Polski",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Wypowiedź rzecznika prasowego NBP",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Wyniki przetargu sprzedaży bonów pieniężnych NBP przeprowadzonego w dniu 16.03.2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Inflacja bazowa w lutym 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Narodowy Bank Polski o finansowaniu potrzeb zbrojeniowych Polski",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h2",
+      "text": "Ostatnio opublikowane",
+      "classes": [
+        "module-title"
+      ],
+      "fontSize": "24.7871px",
+      "fontWeight": "600",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "rgb(21, 46, 82)"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilans płatniczy Polski w styczniu 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Statystyka: Banknoty i monety – struktura obiegu – luty 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Opis dyskusji na posiedzeniu decyzyjnym RPP w dniu 4 lutego 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Projekcja inflacji i PKB – marzec 2026",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilans płatniczy Polski w styczniu 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    },
+    {
+      "tag": "h3",
+      "text": "Statystyka: Banknoty i monety – struktura obiegu – luty 2026 r.",
+      "classes": [],
+      "fontSize": "15.4919px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "-0.0103279px",
+      "color": "rgb(51, 51, 51)"
+    }
+  ],
+  "links": [
+    {
+      "text": "Przeskocz do treści",
+      "href": "https://nbp.pl/#main-content",
+      "classes": [
+        "skip-link",
+        "visually-hidden",
+        "visually-hidden-focusable"
+      ],
+      "color": "rgb(74, 116, 176)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "",
+      "href": "https://nbp.pl/",
+      "classes": [
+        "custom-logo-link"
+      ],
+      "color": "rgb(74, 116, 176)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "wyszukać w całym serwisie.",
+      "href": "https://nbp.pl/#",
+      "classes": [
+        "search-empty__link"
+      ],
+      "color": "rgb(74, 116, 176)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "O NBPPokaż kategorie",
+      "href": "https://nbp.pl/o-nbp/",
+      "classes": [
+        "dropdown-toggle",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "19.6231px",
+      "fontWeight": "600",
+      "textDecoration": "none"
+    },
+    {
+      "text": "O NBP",
+      "href": "https://nbp.pl/o-nbp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Prezes NBP",
+      "href": "https://nbp.pl/o-nbp/prezes-nbp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Rada Polityki Pieniężnej",
+      "href": "https://nbp.pl/polityka-pieniezna/rada-polityki-pienieznej/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Zarząd NBP",
+      "href": "https://nbp.pl/o-nbp/zarzad-nbp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Kontakt",
+      "href": "https://nbp.pl/o-nbp/kontakt/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Akty prawne i dokumenty",
+      "href": "https://nbp.pl/o-nbp/akty-prawne-i-dokumenty/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Sprawozdawczość finansowa",
+      "href": "https://nbp.pl/o-nbp/sprawozdawczosc-finansowa-nbp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Struktura organizacyjna NBP",
+      "href": "https://nbp.pl/o-nbp/struktura-organizacyjna/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Badania i konferencje",
+      "href": "https://nbp.pl/o-nbp/badania-i-konferencje/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Praca i kariera",
+      "href": "https://nbp.pl/o-nbp/praca-i-kariera/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Współpraca techniczna NBP",
+      "href": "https://nbp.pl/o-nbp/wspolpraca-techniczna-nbp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Polityka pieniężnaPokaż kategorie",
+      "href": "https://nbp.pl/polityka-pieniezna/",
+      "classes": [
+        "dropdown-toggle",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "19.6231px",
+      "fontWeight": "600",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Polityka pieniężna",
+      "href": "https://nbp.pl/polityka-pieniezna/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "RPP",
+      "href": "https://nbp.pl/polityka-pieniezna/rada-polityki-pienieznej/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Dokumenty RPP",
+      "href": "https://nbp.pl/polityka-pieniezna/dokumenty-rpp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Projekcja inflacji i PKB",
+      "href": "https://nbp.pl/polityka-pieniezna/projekcja-inflacji-i-pkb/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Decyzje RPP",
+      "href": "https://nbp.pl/polityka-pieniezna/decyzje-rpp/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "Implementacja polityki pieniężnej",
+      "href": "https://nbp.pl/polityka-pieniezna/implementacja-polityki-pienieznej/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    },
+    {
+      "text": "System płatniczyPokaż kategorie",
+      "href": "https://nbp.pl/system-platniczy/",
+      "classes": [
+        "dropdown-toggle",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "19.6231px",
+      "fontWeight": "600",
+      "textDecoration": "none"
+    },
+    {
+      "text": "System płatniczy",
+      "href": "https://nbp.pl/system-platniczy/",
+      "classes": [
+        "dropdown-item",
+        "nav-link",
+        "contsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "textDecoration": "none"
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "",
+      "classes": [
+        "promagnifier"
+      ],
+      "color": "rgb(70, 70, 70)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "classes": [
+        "search-mobile-btn"
+      ],
+      "color": "rgb(70, 70, 70)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Menu",
+      "classes": [
+        "navbar-toggler",
+        "d-none",
+        "d-lg-inline"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgb(189, 173, 125)",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "12.3935px 26.8527px",
+      "fontSize": "13.4263px",
+      "fontWeight": "500",
+      "transition": "box-shadow 0.15s ease-in-out"
+    },
+    {
+      "tag": "button",
+      "text": "Menu",
+      "classes": [
+        "navbar-toggler",
+        "d-inline",
+        "d-lg-none"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgb(189, 173, 125)",
+      "borderRadius": "4px",
+      "boxShadow": "none",
+      "padding": "12.3935px 26.8527px",
+      "fontSize": "13.4263px",
+      "fontWeight": "500",
+      "transition": "box-shadow 0.15s ease-in-out"
+    },
+    {
+      "tag": "button",
+      "text": "Tematycznie",
+      "classes": [
+        "nav-switcher-thematic",
+        "active"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "24.7871px 79.5252px",
+      "fontSize": "18.5903px",
+      "fontWeight": "400",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Alfabetycznie",
+      "classes": [
+        "nav-switcher-alfabethic"
+      ],
+      "color": "rgb(70, 70, 70)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "24.7871px 79.5252px",
+      "fontSize": "18.5903px",
+      "fontWeight": "400",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "classes": [
+        "search-submit-btn"
+      ],
+      "color": "rgb(70, 70, 70)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "borderRadius": "0px 6.19677px 6.19677px 0px",
+      "boxShadow": "none",
+      "padding": "10.3279px",
+      "fontSize": "15.4919px",
+      "fontWeight": "400",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    },
+    {
+      "tag": "button",
+      "text": "Zobacz wszystkie",
+      "classes": [
+        "gsearch"
+      ],
+      "color": "rgb(21, 46, 82)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "padding": "0px",
+      "fontSize": "13.4263px",
+      "fontWeight": "700",
+      "transition": "all"
+    }
+  ],
+  "topColors": [
+    {
+      "value": "rgb(70, 70, 70)",
+      "count": 1425
+    },
+    {
+      "value": "rgb(21, 46, 82)",
+      "count": 1276
+    },
+    {
+      "value": "rgb(20, 24, 39)",
+      "count": 383
+    },
+    {
+      "value": "rgb(50, 50, 50)",
+      "count": 228
+    },
+    {
+      "value": "rgb(255, 255, 255)",
+      "count": 227
+    },
+    {
+      "value": "rgb(74, 116, 176)",
+      "count": 130
+    },
+    {
+      "value": "rgb(0, 0, 0)",
+      "count": 121
+    },
+    {
+      "value": "rgb(51, 51, 51)",
+      "count": 98
+    },
+    {
+      "value": "rgb(93, 93, 93)",
+      "count": 88
+    },
+    {
+      "value": "rgb(75, 75, 75)",
+      "count": 16
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.8)",
+      "count": 13
+    },
+    {
+      "value": "rgb(204, 204, 204)",
+      "count": 12
+    },
+    {
+      "value": "rgb(43, 43, 43)",
+      "count": 6
+    },
+    {
+      "value": "rgb(71, 71, 71)",
+      "count": 4
+    },
+    {
+      "value": "rgb(102, 102, 102)",
+      "count": 2
+    },
+    {
+      "value": "rgb(51, 74, 255)",
+      "count": 1
+    }
+  ],
+  "topBackgrounds": [
+    {
+      "value": "rgb(255, 255, 255)",
+      "count": 63
+    },
+    {
+      "value": "rgb(74, 116, 176)",
+      "count": 32
+    },
+    {
+      "value": "rgb(247, 247, 247)",
+      "count": 28
+    },
+    {
+      "value": "rgb(196, 196, 196)",
+      "count": 26
+    },
+    {
+      "value": "rgb(217, 217, 217)",
+      "count": 16
+    },
+    {
+      "value": "rgb(21, 46, 82)",
+      "count": 11
+    },
+    {
+      "value": "rgb(229, 0, 64)",
+      "count": 9
+    },
+    {
+      "value": "rgb(189, 173, 125)",
+      "count": 8
+    },
+    {
+      "value": "rgb(232, 232, 232)",
+      "count": 5
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.6)",
+      "count": 2
+    },
+    {
+      "value": "rgba(20, 24, 39, 0.24)",
+      "count": 2
+    }
+  ],
+  "topBorders": [
+    {
+      "value": "rgb(70, 70, 70)",
+      "count": 1362
+    },
+    {
+      "value": "rgb(21, 46, 82)",
+      "count": 1249
+    },
+    {
+      "value": "rgb(20, 24, 39)",
+      "count": 383
+    },
+    {
+      "value": "rgb(50, 50, 50)",
+      "count": 220
+    },
+    {
+      "value": "rgb(74, 116, 176)",
+      "count": 187
+    },
+    {
+      "value": "rgb(255, 255, 255)",
+      "count": 139
+    },
+    {
+      "value": "rgb(0, 0, 0)",
+      "count": 123
+    },
+    {
+      "value": "rgb(51, 51, 51)",
+      "count": 98
+    },
+    {
+      "value": "rgb(93, 93, 93)",
+      "count": 88
+    },
+    {
+      "value": "rgb(189, 173, 125)",
+      "count": 44
+    },
+    {
+      "value": "rgb(75, 75, 75)",
+      "count": 16
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.8)",
+      "count": 13
+    },
+    {
+      "value": "rgb(213, 213, 213)",
+      "count": 10
+    },
+    {
+      "value": "rgb(232, 232, 232)",
+      "count": 9
+    },
+    {
+      "value": "rgba(0, 0, 0, 0.15)",
+      "count": 8
+    },
+    {
+      "value": "rgb(204, 204, 204)",
+      "count": 8
+    },
+    {
+      "value": "rgb(43, 43, 43)",
+      "count": 6
+    },
+    {
+      "value": "rgb(181, 181, 181)",
+      "count": 4
+    },
+    {
+      "value": "rgb(71, 71, 71)",
+      "count": 4
+    },
+    {
+      "value": "rgb(191, 206, 221)",
+      "count": 2
+    }
+  ],
+  "topShadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.5) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px",
+      "count": 8
+    },
+    {
+      "value": "rgb(241, 239, 239) 0px 6px 24px 0px",
+      "count": 8
+    },
+    {
+      "value": "rgba(0, 0, 0, 0.12) 0px 2px 12px 0px",
+      "count": 5
+    },
+    {
+      "value": "rgba(0, 0, 0, 0.12) 0px 4px 14px 0px",
+      "count": 4
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.64) 0px 1px 0px 0px inset",
+      "count": 2
+    },
+    {
+      "value": "rgba(0, 0, 0, 0.3) 0px 0px 3px -1px",
+      "count": 2
+    },
+    {
+      "value": "rgb(181, 181, 181) 0px 0px 0px 1px inset",
+      "count": 2
+    },
+    {
+      "value": "rgb(181, 181, 181) 0px 0px 0px 0px inset",
+      "count": 1
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.64) -1px 1px 0px 0px inset",
+      "count": 1
+    },
+    {
+      "value": "rgba(255, 255, 255, 0.9) 0px 0px 0px 2px",
+      "count": 1
+    }
+  ],
+  "topRadii": [
+    {
+      "value": "4px",
+      "count": 148
+    },
+    {
+      "value": "50%",
+      "count": 58
+    },
+    {
+      "value": "12.3935px",
+      "count": 25
+    },
+    {
+      "value": "6.19677px",
+      "count": 16
+    },
+    {
+      "value": "8.26236px",
+      "count": 14
+    },
+    {
+      "value": "33.0494px",
+      "count": 14
+    },
+    {
+      "value": "2px",
+      "count": 8
+    },
+    {
+      "value": "4.13118px",
+      "count": 8
+    },
+    {
+      "value": "41.3118px",
+      "count": 5
+    },
+    {
+      "value": "16.5247px",
+      "count": 5
+    },
+    {
+      "value": "0px 0px 3px 3px",
+      "count": 2
+    },
+    {
+      "value": "9.5px",
+      "count": 2
+    },
+    {
+      "value": "6.19677px 0px 0px 6.19677px",
+      "count": 1
+    },
+    {
+      "value": "0px 6.19677px 6.19677px 0px",
+      "count": 1
+    },
+    {
+      "value": "4.8px",
+      "count": 1
+    },
+    {
+      "value": "3.8px 3.8px 0px 0px",
+      "count": 1
+    }
+  ],
+  "topTransitions": [
+    {
+      "value": "all | 0.3s | ease-in-out",
+      "count": 349
+    },
+    {
+      "value": "color | 0.3s | ease-in-out",
+      "count": 127
+    },
+    {
+      "value": "border, background-color, color, box-shadow | 0.3s, 0.3s, 0.3s, 0.3s | ease-in-out, ease-in-out, ease-in-out, ease-in-out",
+      "count": 70
+    },
+    {
+      "value": "border-color | 0.2s | ease",
+      "count": 54
+    },
+    {
+      "value": "opacity | 0.3s | ease",
+      "count": 48
+    },
+    {
+      "value": "transform | 0.6s | ease-in-out",
+      "count": 25
+    },
+    {
+      "value": "opacity | 0.6s | ease",
+      "count": 25
+    },
+    {
+      "value": "color | 0.2s | ease",
+      "count": 11
+    },
+    {
+      "value": "transform | 0.2s | ease",
+      "count": 9
+    },
+    {
+      "value": "opacity | 0.15s | ease",
+      "count": 8
+    },
+    {
+      "value": "box-shadow | 0.15s | ease-in-out",
+      "count": 2
+    },
+    {
+      "value": "background-color | 0.2s | ease",
+      "count": 2
+    },
+    {
+      "value": "border-color, box-shadow | 0.15s, 0.15s | ease-in-out, ease-in-out",
+      "count": 1
+    },
+    {
+      "value": "opacity | 0.15s | linear",
+      "count": 1
+    },
+    {
+      "value": "transform | 0.3s | ease-out",
+      "count": 1
+    },
+    {
+      "value": "all | 0.2s | ease-out",
+      "count": 1
+    }
+  ],
+  "topFontFamilies": [
+    {
+      "value": "\"Libre Franklin\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "count": 3254
+    },
+    {
+      "value": "\"Helvetica Neue\", Helvetica, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif",
+      "count": 319
+    },
+    {
+      "value": "\"Brygada 1918\", -apple-system, Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "count": 246
+    },
+    {
+      "value": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "count": 139
+    },
+    {
+      "value": "\"Times New Roman\"",
+      "count": 78
+    },
+    {
+      "value": "\"Libre Franklin\"",
+      "count": 1
+    },
+    {
+      "value": "SFNS, sans-serif",
+      "count": 1
+    }
+  ],
+  "topFontSizes": [
+    {
+      "value": "15.4919px",
+      "count": 2519
+    },
+    {
+      "value": "16px",
+      "count": 306
+    },
+    {
+      "value": "12px",
+      "count": 218
+    },
+    {
+      "value": "16.5247px",
+      "count": 164
+    },
+    {
+      "value": "14.4591px",
+      "count": 138
+    },
+    {
+      "value": "13.4263px",
+      "count": 133
+    },
+    {
+      "value": "19.6231px",
+      "count": 91
+    },
+    {
+      "value": "18px",
+      "count": 86
+    },
+    {
+      "value": "11px",
+      "count": 85
+    },
+    {
+      "value": "10px",
+      "count": 66
+    },
+    {
+      "value": "13.9427px",
+      "count": 42
+    },
+    {
+      "value": "24.7871px",
+      "count": 36
+    },
+    {
+      "value": "14px",
+      "count": 34
+    },
+    {
+      "value": "18.5903px",
+      "count": 21
+    },
+    {
+      "value": "33.0494px",
+      "count": 19
+    },
+    {
+      "value": "12.3935px",
+      "count": 18
+    },
+    {
+      "value": "22.7215px",
+      "count": 17
+    },
+    {
+      "value": "10.3279px",
+      "count": 16
+    },
+    {
+      "value": "0px",
+      "count": 8
+    },
+    {
+      "value": "13.5554px",
+      "count": 7
+    }
+  ],
+  "topLineHeights": [
+    {
+      "value": "24px",
+      "count": 3224
+    },
+    {
+      "value": "normal",
+      "count": 332
+    },
+    {
+      "value": "15.18px",
+      "count": 85
+    },
+    {
+      "value": "25.56px",
+      "count": 84
+    },
+    {
+      "value": "19.44px",
+      "count": 84
+    },
+    {
+      "value": "15px",
+      "count": 70
+    },
+    {
+      "value": "28px",
+      "count": 58
+    },
+    {
+      "value": "32px",
+      "count": 34
+    },
+    {
+      "value": "12px",
+      "count": 16
+    },
+    {
+      "value": "12.3935px",
+      "count": 16
+    },
+    {
+      "value": "20px",
+      "count": 12
+    },
+    {
+      "value": "0px",
+      "count": 11
+    },
+    {
+      "value": "44px",
+      "count": 9
+    },
+    {
+      "value": "15.6px",
+      "count": 2
+    },
+    {
+      "value": "22.5px",
+      "count": 1
+    }
+  ],
+  "topFontWeights": [
+    {
+      "value": "400",
+      "count": 3349
+    },
+    {
+      "value": "700",
+      "count": 319
+    },
+    {
+      "value": "600",
+      "count": 203
+    },
+    {
+      "value": "500",
+      "count": 166
+    },
+    {
+      "value": "300",
+      "count": 1
+    }
+  ],
+  "topClasses": [
+    {
+      "value": "contsearch",
+      "count": 402
+    },
+    {
+      "value": "gsearch",
+      "count": 288
+    },
+    {
+      "value": "nav-link",
+      "count": 272
+    },
+    {
+      "value": "nav-link-desc",
+      "count": 272
+    },
+    {
+      "value": "description",
+      "count": 272
+    },
+    {
+      "value": "dropdown-item",
+      "count": 246
+    },
+    {
+      "value": "menu-item",
+      "count": 244
+    },
+    {
+      "value": "nav-item",
+      "count": 182
+    },
+    {
+      "value": "menu-item-type-post_type",
+      "count": 143
+    },
+    {
+      "value": "menu-item-object-page",
+      "count": 142
+    },
+    {
+      "value": "hidden",
+      "count": 118
+    },
+    {
+      "value": "tribe-common-a11y-visual-hide",
+      "count": 89
+    },
+    {
+      "value": "tribe-events-calendar-month__day-cell",
+      "count": 84
+    },
+    {
+      "value": "tribe-events-calendar-month__day-date",
+      "count": 84
+    },
+    {
+      "value": "tribe-events-calendar-month__day-date-daynum",
+      "count": 84
+    },
+    {
+      "value": "menu-item-type-custom",
+      "count": 74
+    },
+    {
+      "value": "menu-item-object-custom",
+      "count": 74
+    },
+    {
+      "value": "btn",
+      "count": 70
+    },
+    {
+      "value": "tribe-common-h--alt",
+      "count": 63
+    },
+    {
+      "value": "tribe-common-a11y-hidden",
+      "count": 56
+    },
+    {
+      "value": "tribe-common-h7",
+      "count": 50
+    },
+    {
+      "value": "col-lg-3",
+      "count": 44
+    },
+    {
+      "value": "row",
+      "count": 43
+    },
+    {
+      "value": "menu-item-has-children",
+      "count": 42
+    },
+    {
+      "value": "nav-col",
+      "count": 42
+    },
+    {
+      "value": "tribe-events-calendar-month__day",
+      "count": 42
+    },
+    {
+      "value": "tribe-events-calendar-month__day-cell--mobile",
+      "count": 42
+    },
+    {
+      "value": "tribe-common-h6",
+      "count": 42
+    },
+    {
+      "value": "tribe-events-calendar-month__day-cell--desktop",
+      "count": 42
+    },
+    {
+      "value": "tribe-common-h4",
+      "count": 42
+    },
+    {
+      "value": "tribe-events-calendar-month__events",
+      "count": 42
+    },
+    {
+      "value": "tribe_events",
+      "count": 42
+    },
+    {
+      "value": "type-tribe_events",
+      "count": 42
+    },
+    {
+      "value": "status-publish",
+      "count": 42
+    },
+    {
+      "value": "hentry",
+      "count": 42
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-day",
+      "count": 42
+    },
+    {
+      "value": "col-lg-12",
+      "count": 39
+    },
+    {
+      "value": "tribe-event-date-start",
+      "count": 35
+    },
+    {
+      "value": "btn-primary",
+      "count": 30
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-event",
+      "count": 28
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-event-details",
+      "count": 28
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-event-datetime",
+      "count": 28
+    },
+    {
+      "value": "tribe-common-b2",
+      "count": 28
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-event-title",
+      "count": 28
+    },
+    {
+      "value": "tribe-events-calendar-month-mobile-events__mobile-event-title-link",
+      "count": 28
+    },
+    {
+      "value": "tribe-common-anchor",
+      "count": 28
+    },
+    {
+      "value": "d-none",
+      "count": 26
+    },
+    {
+      "value": "nav-alfabethic-list__item",
+      "count": 26
+    },
+    {
+      "value": "col-md-6",
+      "count": 26
+    },
+    {
+      "value": "tribe-common-anchor-thin",
+      "count": 26
+    },
+    {
+      "value": "carousel-item",
+      "count": 25
+    },
+    {
+      "value": "dropdown-toggle",
+      "count": 24
+    },
+    {
+      "value": "align-items-center",
+      "count": 23
+    },
+    {
+      "value": "btn-outline-primary",
+      "count": 23
+    },
+    {
+      "value": "tribe-events-calendar-month__day--past",
+      "count": 23
+    },
+    {
+      "value": "d-md-none",
+      "count": 22
+    },
+    {
+      "value": "asl_option_inner",
+      "count": 20
+    },
+    {
+      "value": "navbar-nav",
+      "count": 20
+    },
+    {
+      "value": "w-100",
+      "count": 20
+    },
+    {
+      "value": "col-12",
+      "count": 20
+    },
+    {
+      "value": "highcharts-area-series",
+      "count": 20
+    },
+    {
+      "value": "d-md-block",
+      "count": 19
+    },
+    {
+      "value": "lazy",
+      "count": 18
+    },
+    {
+      "value": "card",
+      "count": 18
+    },
+    {
+      "value": "card-module",
+      "count": 18
+    },
+    {
+      "value": "card-body",
+      "count": 18
+    },
+    {
+      "value": "card-image",
+      "count": 18
+    },
+    {
+      "value": "col-lg-6",
+      "count": 17
+    },
+    {
+      "value": "owl-item",
+      "count": 17
+    },
+    {
+      "value": "tribe-common-h8",
+      "count": 17
+    },
+    {
+      "value": "btn-light",
+      "count": 17
+    },
+    {
+      "value": "highcharts-grid-line",
+      "count": 17
+    },
+    {
+      "value": "visually-hidden",
+      "count": 16
+    },
+    {
+      "value": "dropdown",
+      "count": 16
+    },
+    {
+      "value": "dropdown-menu",
+      "count": 16
+    },
+    {
+      "value": "view-more",
+      "count": 16
+    },
+    {
+      "value": "nav-item-more",
+      "count": 16
+    },
+    {
+      "value": "col-lg-4",
+      "count": 16
+    },
+    {
+      "value": "post-item",
+      "count": 16
+    },
+    {
+      "value": "posted-on",
+      "count": 16
+    }
+  ],
+  "downloadedFaviconPath": "assets/nbp/favicon.ico",
+  "downloadedLogoPath": "assets/nbp/logo.svg"
+}
