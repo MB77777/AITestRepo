@@ -42,41 +42,75 @@ ensure_java() {
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-
-BACKEND_LOG="$REPO_ROOT/backend/backend.log"
-RUN_ID="$(date +%Y%m%d-%H%M%S)"
 FRONTEND_PORT="${PORT:-3000}"
-BACKEND_LOG="$REPO_ROOT/backend/backend-$RUN_ID.log"
-FRONTEND_LOG="$REPO_ROOT/frontend/frontend-$RUN_ID.log"
-FRONTEND_ERR_LOG="$REPO_ROOT/frontend/frontend-$RUN_ID.err.log"
+BACKEND_PORT="${SERVER_PORT:-8080}"
+
+backend_pid=""
+frontend_pid=""
+
+cleanup() {
+  local exit_code=$?
+  trap - EXIT INT TERM
+
+  if [ -n "$frontend_pid" ] && kill -0 "$frontend_pid" 2>/dev/null; then
+    log "Stopping frontend process tree."
+    kill "$frontend_pid" 2>/dev/null || true
+    wait "$frontend_pid" 2>/dev/null || true
+  fi
+
+  if [ -n "$backend_pid" ] && kill -0 "$backend_pid" 2>/dev/null; then
+    log "Stopping backend process tree."
+    kill "$backend_pid" 2>/dev/null || true
+    wait "$backend_pid" 2>/dev/null || true
+  fi
+
+  exit "$exit_code"
+}
+
+trap cleanup EXIT INT TERM
 
 cd "$REPO_ROOT"
-
 ensure_java
+
+log "Backend URL: http://localhost:$BACKEND_PORT"
+log "Frontend URL: http://localhost:$FRONTEND_PORT"
+log "Press Ctrl+C to stop both processes."
 
 if [ -f ./mvnw ] && [ -f ./pom.xml ]; then
   log "Starting backend using root Maven reactor."
-  nohup ./mvnw package spring-boot:test-run -pl langgraph4j-ag-ui-sdk >"$BACKEND_LOG" 2>&1 &
+  (
+    cd "$REPO_ROOT"
+    exec ./mvnw package spring-boot:test-run -pl langgraph4j-ag-ui-sdk \
+      > >(sed -u 's/^/[BE] /') \
+      2> >(sed -u 's/^/[BE] /' >&2)
+  ) &
+  backend_pid=$!
 elif [ -f ./backend/mvnw ]; then
   log "Root Maven reactor not found. Falling back to backend module start."
   (
-    cd backend
-    nohup ./mvnw spring-boot:run >"$BACKEND_LOG" 2>&1 &
-  )
+    cd "$REPO_ROOT/backend"
+    exec ./mvnw spring-boot:run \
+      > >(sed -u 's/^/[BE] /') \
+      2> >(sed -u 's/^/[BE] /' >&2)
+  ) &
+  backend_pid=$!
 else
-  log "Backend start command not available."
+  echo "Backend start command not available." >&2
+  exit 1
 fi
 
 if [ -f ./frontend/package.json ] && command -v npm >/dev/null 2>&1; then
   log "Starting frontend."
   (
-    cd frontend
-    nohup npm run dev >"$FRONTEND_LOG" 2>"$FRONTEND_ERR_LOG" &
-  )
+    cd "$REPO_ROOT/frontend"
+    exec npm run dev \
+      > >(sed -u 's/^/[FE] /') \
+      2> >(sed -u 's/^/[FE] /' >&2)
+  ) &
+  frontend_pid=$!
 else
-  log "Frontend package or npm not available."
+  echo "Frontend package or npm not available." >&2
+  exit 1
 fi
 
-log "Started processes. Backend log: $BACKEND_LOG"
-log "Started processes. Frontend log: $FRONTEND_LOG"
-log "App URL: http://localhost:$FRONTEND_PORT"
+wait -n "$backend_pid" "$frontend_pid"
