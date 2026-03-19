@@ -1,0 +1,27 @@
+{
+  "name": "ai-programming-course-jsystem-03-2026",
+  "version": "1.0.0",
+  "description": "Course workspace for 5-day training.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026/issues"
+  },
+  "homepage": "https://github.com/EdukeyTeam/AI-Programming-Course-JSystem-03-2026#readme",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

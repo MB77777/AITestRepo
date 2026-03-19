@@ -1,3 +1,17 @@
 Dostepy-RDP-AI-dla-programistow-2026-03-16.pdf
 .env
 .env.local
+node_modules/
+.npm-cache/
+.m2/
+.next-cache/
+.next-local/
+.idea/
+*.log
+backend/target/
+frontend/node_modules/
+frontend/.next/
+frontend/.next-local/
+frontend/out/
+
+**/.flattened-pom.xml
